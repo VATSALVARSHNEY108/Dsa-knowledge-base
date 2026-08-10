@@ -1,0 +1,133 @@
+// Custom styles for the CS & Software Engineering Knowledge Base site.
+
+// ---------------------------------------------------------------
+// Hero section
+// ---------------------------------------------------------------
+.hero {
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.hero .hero-description {
+  font-size: 1.1rem;
+  color: $grey-dk-100;
+  max-width: 52rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.hero-actions .btn {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+}
+
+// ---------------------------------------------------------------
+// Quick navigation cards
+// ---------------------------------------------------------------
+.quick-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.8rem;
+  margin: 1.25rem 0;
+}
+
+.quick-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  color: $body-text-color;
+  font-weight: 500;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+
+.quick-nav a:hover {
+  border-color: $link-color;
+  background-color: $grey-lt-100;
+  text-decoration: none;
+}
+
+.quick-nav .nav-emoji {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+// ---------------------------------------------------------------
+// Topic tables (category index)
+// ---------------------------------------------------------------
+table.topic-table {
+  margin: 0.75rem 0 2rem;
+}
+
+table.topic-table td {
+  font-size: 0.95rem;
+}
+
+table.topic-table td:first-child {
+  white-space: nowrap;
+  font-family: $mono-font-family;
+  font-size: 0.85rem;
+  color: $grey-dk-100;
+  width: 12rem;
+}
+
+@media (max-width: 42rem) {
+  table.topic-table td:first-child {
+    white-space: normal;
+    width: auto;
+  }
+}
+
+// ---------------------------------------------------------------
+// Code blocks
+// ---------------------------------------------------------------
+div.highlighter-rouge {
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+div.highlighter-rouge pre {
+  overflow-x: auto;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
+
+// ---------------------------------------------------------------
+// Back-to-top link
+// ---------------------------------------------------------------
+.back-to-top {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+// ---------------------------------------------------------------
+// Footer polish
+// ---------------------------------------------------------------
+.site-footer {
+  margin-top: 2rem;
+}
+
+.site-footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
