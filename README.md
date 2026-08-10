@@ -2,6 +2,14 @@
 
 A comprehensive, structured resource for learning Computer Science, Software Engineering, Competitive Programming, and Technical Interview Preparation.
 
+## Quick Links
+
+| Resource | Link |
+|----------|------|
+| **Website (GitHub Pages)** | [shubhu-io.github.io/Dsa-knowledge-base](https://shubhu-io.github.io/Dsa-knowledge-base/) |
+| **Wiki** | [github.com/shubhu-io/Dsa-knowledge-base/wiki](https://github.com/shubhu-io/Dsa-knowledge-base/wiki) |
+| **Repository** | [github.com/shubhu-io/Dsa-knowledge-base](https://github.com/shubhu-io/Dsa-knowledge-base) |
+
 ## Overview
 
 This repository serves as a complete curriculum and reference guide for:
@@ -115,6 +123,15 @@ See [00-Getting-Started/how-to-use.md](00-Getting-Started/how-to-use.md) for:
 - Tools and setup recommendations
 - Progress tracking methods
 - Frequently asked questions
+
+## Website & Wiki
+
+This repository is published in two additional formats:
+
+- **[GitHub Pages website](https://shubhu-io.github.io/Dsa-knowledge-base/)** — A browsable card-based index of all 55 topics, with a dedicated [Programming Languages page](https://shubhu-io.github.io/Dsa-knowledge-base/languages.html) covering all 15 languages.
+- **[Wiki](https://github.com/shubhu-io/Dsa-knowledge-base/wiki)** — A navigable wiki with learning paths, cross-referenced topic guides, and per-language pages (Python, Java, C++, JavaScript, Go, Rust, and more).
+
+Both are generated directly from the content in this repository and are kept in sync with `main`.
 
 ## Contributing
 

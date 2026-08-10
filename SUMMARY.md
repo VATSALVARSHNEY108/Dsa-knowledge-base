@@ -3,6 +3,11 @@
 ## Overview
 This repository contains a comprehensive collection of computer science and software engineering topics organized into structured learning paths.
 
+## Quick Links
+- **[Website (GitHub Pages)](https://shubhu-io.github.io/Dsa-knowledge-base/)** — Browse all topics in a card-based site
+- **[Wiki](https://github.com/shubhu-io/Dsa-knowledge-base/wiki)** — Navigable wiki with learning paths and topic guides
+- **[Repository](https://github.com/shubhu-io/Dsa-knowledge-base)** — Source of all content
+
 ## Directory Structure
 
 ### Getting Started
