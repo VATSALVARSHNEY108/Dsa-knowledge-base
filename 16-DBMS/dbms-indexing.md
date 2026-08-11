@@ -1,3 +1,10 @@
+---
+layout: default
+title: DBMS Indexing
+parent: DBMS
+nav_order: 3
+---
+
 # Database Indexing Guide
 
 This document covers database indexing strategies and optimization techniques.

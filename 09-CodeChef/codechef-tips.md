@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codechef Tips
+parent: Codechef
+nav_order: 6
+---
+
 # CodeChef Tips & Strategies
 
 ## Contest Preparation

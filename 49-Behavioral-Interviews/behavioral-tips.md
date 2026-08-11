@@ -1,3 +1,10 @@
+---
+layout: default
+title: Behavioral Tips
+parent: Behavioral Interviews
+nav_order: 4
+---
+
 # Behavioral Interview Tips
 
 ## Table of Contents

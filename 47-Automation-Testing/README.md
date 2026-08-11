@@ -1,3 +1,10 @@
+---
+layout: default
+title: Automation Testing
+has_children: true
+nav_order: 57
+---
+
 # Automation Testing
 
 A comprehensive guide to test automation frameworks, tools, and best practices.

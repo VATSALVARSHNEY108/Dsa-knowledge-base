@@ -1,3 +1,10 @@
+---
+layout: default
+title: Javascript Introduction
+parent: JavaScript
+nav_order: 2
+---
+
 # JavaScript Introduction
 
 ## Why Learn JavaScript?

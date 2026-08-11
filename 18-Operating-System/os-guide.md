@@ -1,3 +1,10 @@
+---
+layout: default
+title: OS Guide
+parent: Operating System
+nav_order: 2
+---
+
 # Operating System Guide
 
 ## What is an Operating System?

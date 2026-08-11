@@ -1,3 +1,10 @@
+---
+layout: default
+title: Testing Types
+parent: Software Testing
+nav_order: 6
+---
+
 # Testing Types: Complete Reference
 
 ## Table of Contents

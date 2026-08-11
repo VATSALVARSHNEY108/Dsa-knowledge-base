@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Structures
+has_children: true
+nav_order: 14
+---
+
 # Data Structures
 
 This section covers fundamental data structures used in computer science and programming interviews.

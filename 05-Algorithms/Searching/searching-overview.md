@@ -1,3 +1,10 @@
+---
+layout: default
+title: Searching Overview
+parent: Searching
+nav_order: 2
+---
+
 # Searching Algorithms Overview
 
 ## Introduction

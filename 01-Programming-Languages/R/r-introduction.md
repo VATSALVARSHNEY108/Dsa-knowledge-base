@@ -1,3 +1,10 @@
+---
+layout: default
+title: R Introduction
+parent: R
+nav_order: 2
+---
+
 # R Introduction
 
 ## Why Learn R?

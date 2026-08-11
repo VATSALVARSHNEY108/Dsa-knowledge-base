@@ -1,3 +1,10 @@
+---
+layout: default
+title: OS Cheatsheet
+parent: Operating System
+nav_order: 1
+---
+
 # OS Cheat Sheet
 
 Quick reference for operating system fundamentals: processes, scheduling,

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Portfolio
+parent: Projects
+nav_order: 3
+---
+
 # DSA Project Portfolio Guide
 
 Build an impressive portfolio that demonstrates your mastery of data structures and algorithms.

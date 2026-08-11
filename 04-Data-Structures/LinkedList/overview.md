@@ -1,3 +1,10 @@
+---
+layout: default
+title: Overview
+parent: LinkedList
+nav_order: 4
+---
+
 # Linked List Overview
 
 ## Introduction

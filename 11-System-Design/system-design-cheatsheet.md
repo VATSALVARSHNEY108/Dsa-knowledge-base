@@ -1,3 +1,10 @@
+---
+layout: default
+title: System Design Cheatsheet
+parent: System Design
+nav_order: 5
+---
+
 # System Design Cheat Sheet
 
 Quick reference for design interviews: framework, scalability concepts,

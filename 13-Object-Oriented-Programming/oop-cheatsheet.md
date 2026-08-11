@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP Cheatsheet
+parent: Object Oriented Programming
+nav_order: 1
+---
+
 # Object-Oriented Programming Cheat Sheet
 
 Quick reference for the four pillars of OOP with Python examples,

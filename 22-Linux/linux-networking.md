@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linux Networking
+parent: Linux
+nav_order: 5
+---
+
 # Linux Networking
 
 This document covers essential Linux networking concepts, commands, and configuration.

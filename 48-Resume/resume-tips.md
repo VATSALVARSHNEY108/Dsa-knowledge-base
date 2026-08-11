@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume Tips
+parent: Resume
+nav_order: 6
+---
+
 # Resume Tips: Expert Strategies
 
 ## Table of Contents

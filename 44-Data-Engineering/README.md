@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Engineering
+has_children: true
+nav_order: 54
+---
+
 # 44 - Data Engineering
 
 ## Overview

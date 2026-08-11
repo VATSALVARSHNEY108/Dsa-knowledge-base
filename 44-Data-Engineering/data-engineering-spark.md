@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Engineering Spark
+parent: Data Engineering
+nav_order: 3
+---
+
 # Apache Spark for Data Engineering
 
 This document covers using Apache Spark for large-scale data processing.

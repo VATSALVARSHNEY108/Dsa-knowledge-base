@@ -1,3 +1,10 @@
+---
+layout: default
+title: Books and Courses
+parent: Resources
+nav_order: 1
+---
+
 # Books and Courses for DSA
 
 Curated list of textbooks, online courses, and certifications for mastering Data Structures and Algorithms.

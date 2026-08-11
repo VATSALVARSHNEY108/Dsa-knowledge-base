@@ -1,3 +1,10 @@
+---
+layout: default
+title: Leetcode Cheatsheet
+parent: Leetcode
+nav_order: 1
+---
+
 # LeetCode Cheatsheet
 
 Quick reference for patterns, problem frequency, prep plans,

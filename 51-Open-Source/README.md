@@ -1,3 +1,10 @@
+---
+layout: default
+title: Open Source
+has_children: true
+nav_order: 61
+---
+
 # Open Source Contribution Guide
 
 Your complete guide to contributing to open source projects and building your developer reputation.

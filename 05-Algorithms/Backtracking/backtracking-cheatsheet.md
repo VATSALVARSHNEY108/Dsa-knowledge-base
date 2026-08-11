@@ -1,3 +1,10 @@
+---
+layout: default
+title: Backtracking Cheatsheet
+parent: Backtracking
+nav_order: 1
+---
+
 # Backtracking Cheat Sheet
 
 ## Core Concept

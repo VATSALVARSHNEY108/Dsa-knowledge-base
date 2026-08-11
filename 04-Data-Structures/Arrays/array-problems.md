@@ -1,3 +1,10 @@
+---
+layout: default
+title: Array Problems
+parent: Arrays
+nav_order: 2
+---
+
 # Array Problems
 
 ## Easy Problems

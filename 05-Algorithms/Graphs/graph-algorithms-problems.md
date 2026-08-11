@@ -1,3 +1,10 @@
+---
+layout: default
+title: Graph Algorithms Problems
+parent: Graphs
+nav_order: 3
+---
+
 # Graph Algorithms Problems
 
 ## Problem List

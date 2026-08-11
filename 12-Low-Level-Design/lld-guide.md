@@ -1,3 +1,10 @@
+---
+layout: default
+title: LLD Guide
+parent: Low Level Design
+nav_order: 3
+---
+
 # Low-Level Design (LLD) — Complete Guide
 
 ## What is Low-Level Design?

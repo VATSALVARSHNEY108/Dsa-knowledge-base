@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP Guide
+parent: Object Oriented Programming
+nav_order: 3
+---
+
 # Object-Oriented Programming — Complete Guide
 
 ## What is OOP?

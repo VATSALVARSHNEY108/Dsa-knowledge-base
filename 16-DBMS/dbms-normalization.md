@@ -1,3 +1,10 @@
+---
+layout: default
+title: DBMS Normalization
+parent: DBMS
+nav_order: 5
+---
+
 # DBMS Normalization
 
 ## 1. What is Normalization?

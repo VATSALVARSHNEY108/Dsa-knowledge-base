@@ -1,3 +1,10 @@
+---
+layout: default
+title: Java Fundamentals Cheatsheet
+parent: Java Fundamentals
+nav_order: 1
+---
+
 # Java Fundamentals Cheat Sheet
 
 ## Quick Reference

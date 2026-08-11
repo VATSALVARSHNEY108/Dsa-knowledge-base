@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS Guide
+parent: AWS
+nav_order: 3
+---
+
 # AWS Complete Guide - From Zero to Cloud Architect
 
 ## Table of Contents

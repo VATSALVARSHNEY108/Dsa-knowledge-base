@@ -1,3 +1,10 @@
+---
+layout: default
+title: Computer Vision
+has_children: true
+nav_order: 52
+---
+
 # Computer Vision
 
 ## Overview

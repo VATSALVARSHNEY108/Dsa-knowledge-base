@@ -1,3 +1,10 @@
+---
+layout: default
+title: Array Cheatsheet
+parent: Arrays
+nav_order: 1
+---
+
 # Array Cheat Sheet
 
 ## Core Concepts

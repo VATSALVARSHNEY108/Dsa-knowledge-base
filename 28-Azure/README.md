@@ -1,3 +1,10 @@
+---
+layout: default
+title: Azure
+has_children: true
+nav_order: 38
+---
+
 # Microsoft Azure - Cloud Computing Platform
 
 ## Overview

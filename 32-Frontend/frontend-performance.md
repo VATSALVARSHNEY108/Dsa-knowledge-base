@@ -1,3 +1,10 @@
+---
+layout: default
+title: Frontend Performance
+parent: Frontend
+nav_order: 6
+---
+
 # Frontend Performance Optimization
 
 ## Table of Contents

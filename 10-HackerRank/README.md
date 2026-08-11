@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hackerrank
+has_children: true
+nav_order: 20
+---
+
 # 10 - HackerRank
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Behavioral Guide
+parent: Behavioral Interviews
+nav_order: 1
+---
+
 # Behavioral Interviews: Complete Guide
 
 ## Table of Contents

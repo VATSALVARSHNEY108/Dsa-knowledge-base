@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kotlin Introduction
+parent: Kotlin
+nav_order: 2
+---
+
 # Kotlin Introduction
 
 ## Why Learn Kotlin?

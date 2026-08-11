@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Hacking Tips
+parent: Ethical Hacking
+nav_order: 5
+---
+
 # Ethical Hacking Tips & Best Practices
 
 ## Table of Contents

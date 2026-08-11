@@ -1,3 +1,10 @@
+---
+layout: default
+title: Scala Introduction
+parent: Scala
+nav_order: 2
+---
+
 # Scala Introduction
 
 ## Why Learn Scala?

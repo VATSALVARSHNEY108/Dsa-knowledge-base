@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Hacking Careers
+parent: Ethical Hacking
+nav_order: 1
+---
+
 # Ethical Hacking Career Paths
 
 This document covers various career paths and opportunities in ethical hacking and cybersecurity.

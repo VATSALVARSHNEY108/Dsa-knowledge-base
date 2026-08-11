@@ -1,3 +1,10 @@
+---
+layout: default
+title: Searching Problems
+parent: Searching
+nav_order: 3
+---
+
 # Searching Problems
 
 ## Problem List

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Devops Tools
+parent: Devops
+nav_order: 6
+---
+
 # DevOps Tools - Complete Reference Guide
 
 ## Table of Contents

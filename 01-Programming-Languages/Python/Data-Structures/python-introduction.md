@@ -1,3 +1,10 @@
+---
+layout: default
+title: Python Introduction
+parent: Python
+nav_order: 10
+---
+
 # Python Introduction
 
 ## Why Learn Python?

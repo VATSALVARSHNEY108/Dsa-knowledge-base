@@ -1,3 +1,10 @@
+---
+layout: default
+title: Youtube Channels
+parent: Resources
+nav_order: 6
+---
+
 # YouTube Channels for DSA Learning
 
 Curated list of YouTube channels for learning Data Structures and Algorithms through video content.

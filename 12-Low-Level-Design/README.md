@@ -1,3 +1,10 @@
+---
+layout: default
+title: Low Level Design
+has_children: true
+nav_order: 22
+---
+
 # 12. Low-Level Design (LLD)
 
 ## Overview

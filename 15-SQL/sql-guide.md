@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQL Guide
+parent: SQL
+nav_order: 3
+---
+
 # SQL Guide — Fundamentals
 
 ## 1. What is SQL?

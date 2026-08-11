@@ -1,3 +1,10 @@
+---
+layout: default
+title: Space Complexity
+parent: Time Complexity
+nav_order: 4
+---
+
 # Space Complexity Analysis
 
 Understanding how much memory your algorithm needs beyond the input.

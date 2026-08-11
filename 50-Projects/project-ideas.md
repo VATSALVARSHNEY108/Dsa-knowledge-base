@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Ideas
+parent: Projects
+nav_order: 1
+---
+
 # Project Ideas Catalog
 
 Detailed descriptions and implementation guides for DSA projects across all skill levels.

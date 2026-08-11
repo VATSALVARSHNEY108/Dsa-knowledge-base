@@ -1,3 +1,10 @@
+---
+layout: default
+title: Stack Cheatsheet
+parent: Stack
+nav_order: 2
+---
+
 # Stack Cheat Sheet
 
 ## Core Concepts

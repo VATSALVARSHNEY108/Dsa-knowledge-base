@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Hacking Cheatsheet
+parent: Ethical Hacking
+nav_order: 2
+---
+
 # Ethical Hacking Cheat Sheet
 
 Quick reference for penetration testing methodology, tools, OSINT,

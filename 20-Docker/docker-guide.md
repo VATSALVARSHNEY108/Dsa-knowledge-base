@@ -1,3 +1,10 @@
+---
+layout: default
+title: Docker Guide
+parent: Docker
+nav_order: 3
+---
+
 # Docker Guide
 
 ## What is Docker?

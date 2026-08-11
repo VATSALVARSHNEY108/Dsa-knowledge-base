@@ -1,3 +1,10 @@
+---
+layout: default
+title: System Design Flashcards
+parent: Flashcards
+nav_order: 5
+---
+
 # System Design Flashcards
 
 Q&A flashcards covering essential system design concepts for technical interviews.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hackerrank Guide
+parent: Hackerrank
+nav_order: 3
+---
+
 # HackerRank Complete Guide
 
 ## Getting Started

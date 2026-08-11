@@ -1,3 +1,10 @@
+---
+layout: default
+title: Fullstack Interview Questions
+parent: Full Stack
+nav_order: 3
+---
+
 # Full-Stack Interview Questions
 
 ## Table of Contents

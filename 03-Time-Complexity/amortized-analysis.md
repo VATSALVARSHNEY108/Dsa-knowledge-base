@@ -1,3 +1,10 @@
+---
+layout: default
+title: Amortized Analysis
+parent: Time Complexity
+nav_order: 1
+---
+
 # Amortized Analysis
 
 Understanding average performance over a sequence of operations.

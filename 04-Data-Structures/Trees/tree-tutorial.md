@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tree Tutorial
+parent: Trees
+nav_order: 5
+---
+
 # Tree Tutorial
 
 ## Overview

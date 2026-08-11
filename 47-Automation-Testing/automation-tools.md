@@ -1,3 +1,10 @@
+---
+layout: default
+title: Automation Tools
+parent: Automation Testing
+nav_order: 6
+---
+
 # Automation Tools: Complete Reference
 
 ## Table of Contents

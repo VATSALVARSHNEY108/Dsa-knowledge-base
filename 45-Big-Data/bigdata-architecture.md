@@ -1,3 +1,10 @@
+---
+layout: default
+title: Big Data Architecture
+parent: Big Data
+nav_order: 2
+---
+
 # Big Data Architecture Patterns
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Backend Architectures
+parent: Backend
+nav_order: 2
+---
+
 # Backend Architecture Patterns
 
 ## Table of Contents

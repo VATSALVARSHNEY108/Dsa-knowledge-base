@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hackerrank Interview Prep
+parent: Hackerrank
+nav_order: 4
+---
+
 # HackerRank Interview Preparation
 
 This document covers strategies for preparing for technical interviews using HackerRank.

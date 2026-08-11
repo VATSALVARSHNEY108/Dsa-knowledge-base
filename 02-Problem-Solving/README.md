@@ -1,3 +1,10 @@
+---
+layout: default
+title: Problem Solving
+has_children: true
+nav_order: 12
+---
+
 # Problem Solving
 
 ## Overview

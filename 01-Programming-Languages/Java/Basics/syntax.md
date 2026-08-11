@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Java
+nav_order: 3
+---
+
 # Java Syntax Reference
 
 ## Primitives and Wrapper Types

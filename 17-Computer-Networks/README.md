@@ -1,3 +1,10 @@
+---
+layout: default
+title: Computer Networks
+has_children: true
+nav_order: 27
+---
+
 # Computer Networks
 
 ## Overview

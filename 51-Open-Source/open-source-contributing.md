@@ -1,3 +1,10 @@
+---
+layout: default
+title: Open Source Contributing
+parent: Open Source
+nav_order: 5
+---
+
 # Contributing to Open Source
 
 This document provides a comprehensive guide to contributing to open source projects.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning Interview Questions
+parent: Deep Learning
+nav_order: 4
+---
+
 # Deep Learning Interview Questions
 
 ## Table of Contents

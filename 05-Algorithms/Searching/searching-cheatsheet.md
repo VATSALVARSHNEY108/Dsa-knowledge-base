@@ -1,3 +1,10 @@
+---
+layout: default
+title: Searching Cheatsheet
+parent: Searching
+nav_order: 1
+---
+
 # Searching Algorithms Cheat Sheet
 
 ## Fundamental Concepts

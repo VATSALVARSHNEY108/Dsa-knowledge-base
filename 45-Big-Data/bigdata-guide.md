@@ -1,3 +1,10 @@
+---
+layout: default
+title: Big Data Guide
+parent: Big Data
+nav_order: 3
+---
+
 # Big Data Comprehensive Guide
 
 ## Table of Contents

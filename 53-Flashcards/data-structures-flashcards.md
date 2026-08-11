@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Structures Flashcards
+parent: Flashcards
+nav_order: 2
+---
+
 # Data Structures Flashcards
 
 Q&A flashcards covering essential data structures for coding interviews.

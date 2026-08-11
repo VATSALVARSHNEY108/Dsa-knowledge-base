@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Engineering Tools
+parent: Data Engineering
+nav_order: 4
+---
+
 # Data Engineering Tools Comparison
 
 ## Overview

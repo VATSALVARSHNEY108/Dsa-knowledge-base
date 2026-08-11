@@ -1,3 +1,10 @@
+---
+layout: default
+title: Mlops
+has_children: true
+nav_order: 53
+---
+
 # 43 - MLOps (Machine Learning Operations)
 
 ## Overview

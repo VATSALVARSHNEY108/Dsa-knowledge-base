@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blockchain Interview Questions
+parent: Blockchain
+nav_order: 3
+---
+
 # Blockchain Interview Questions
 
 ## Table of Contents

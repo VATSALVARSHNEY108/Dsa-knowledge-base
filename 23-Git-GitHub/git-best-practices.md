@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git Best Practices
+parent: Git Github
+nav_order: 1
+---
+
 # Git Best Practices
 
 This document outlines best practices for using Git effectively in team environments.

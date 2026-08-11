@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume Cheatsheet
+parent: Resume
+nav_order: 1
+---
+
 # Resume Cheat Sheet
 
 Quick reference for building a tech resume that passes ATS filters and

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Finding Projects
+parent: Open Source
+nav_order: 2
+---
+
 # Finding Open Source Projects
 
 Strategies and resources for discovering the right open source projects to contribute to.

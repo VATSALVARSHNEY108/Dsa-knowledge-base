@@ -1,3 +1,10 @@
+---
+layout: default
+title: Azure Services Overview
+parent: Azure
+nav_order: 5
+---
+
 # Azure Services Overview - Complete Reference Guide
 
 ## Table of Contents

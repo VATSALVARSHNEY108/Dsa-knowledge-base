@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Technical Ideas
+parent: Projects
+nav_order: 5
+---
+
 # Technical Project Ideas
 
 This document provides a curated list of project ideas organized by difficulty and domain.

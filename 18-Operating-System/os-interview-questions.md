@@ -1,3 +1,10 @@
+---
+layout: default
+title: OS Interview Questions
+parent: Operating System
+nav_order: 3
+---
+
 # Operating System Interview Questions
 
 ## Top Interview Questions

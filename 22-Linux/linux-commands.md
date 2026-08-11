@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linux Commands
+parent: Linux
+nav_order: 3
+---
+
 # Linux Commands Reference
 
 ## 1. Navigation and Files

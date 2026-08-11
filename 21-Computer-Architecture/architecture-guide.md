@@ -1,3 +1,10 @@
+---
+layout: default
+title: Architecture Guide
+parent: Computer Architecture
+nav_order: 1
+---
+
 # Computer Architecture Guide
 
 ## 1. Introduction to Computer Architecture

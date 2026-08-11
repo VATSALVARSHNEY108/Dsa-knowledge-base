@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linked List Tutorial
+parent: LinkedList
+nav_order: 3
+---
+
 # Linked List Tutorial
 
 ## Overview

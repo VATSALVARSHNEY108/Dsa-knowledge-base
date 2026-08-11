@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git Git Cheatsheet
+parent: Git Github
+nav_order: 4
+---
+
 # Git & GitHub Cheat Sheet
 
 Quick reference for configuration, staging, branching, merging, remotes,

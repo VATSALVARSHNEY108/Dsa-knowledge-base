@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning Architectures
+parent: Deep Learning
+nav_order: 1
+---
+
 # Deep Learning Architectures
 
 ## Table of Contents

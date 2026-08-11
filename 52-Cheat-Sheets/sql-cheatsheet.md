@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQL Cheatsheet
+parent: Cheat Sheets
+nav_order: 5
+---
+
 # SQL Cheat Sheet for DSA
 
 Quick reference for SQL queries, joins, indexes, and optimization techniques.

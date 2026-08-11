@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blockchain
+has_children: true
+nav_order: 47
+---
+
 # Blockchain
 
 ## Overview

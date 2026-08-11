@@ -1,3 +1,10 @@
+---
+layout: default
+title: LLD Tips
+parent: Low Level Design
+nav_order: 5
+---
+
 # Low-Level Design — Interview Tips & Tricks
 
 ## Before the Interview

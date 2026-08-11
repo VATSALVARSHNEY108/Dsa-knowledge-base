@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning Training
+parent: Deep Learning
+nav_order: 6
+---
+
 # Deep Learning Training Guide
 
 ## Table of Contents

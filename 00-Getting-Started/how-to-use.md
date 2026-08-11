@@ -1,3 +1,10 @@
+---
+layout: default
+title: How to Use
+parent: Getting Started
+nav_order: 6
+---
+
 # How to Use This Repository
 
 A practical guide to navigating and making the most of this 55-topic CS knowledge base.

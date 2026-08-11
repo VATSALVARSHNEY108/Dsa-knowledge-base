@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linked List Cheatsheet
+parent: LinkedList
+nav_order: 1
+---
+
 # Linked List Cheat Sheet
 
 ## Core Concepts

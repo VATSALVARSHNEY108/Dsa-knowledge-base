@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Engineering Cheatsheet
+parent: Data Engineering
+nav_order: 1
+---
+
 # Data Engineering Cheat Sheet
 
 Quick reference for data engineering: pipelines, architecture, tools,

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Hacking Tools
+parent: Ethical Hacking
+nav_order: 6
+---
+
 # Ethical Hacking Tools
 
 ## Table of Contents

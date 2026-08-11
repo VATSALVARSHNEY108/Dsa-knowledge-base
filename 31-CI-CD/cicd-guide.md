@@ -1,3 +1,10 @@
+---
+layout: default
+title: CI/CD Guide
+parent: CI CD
+nav_order: 4
+---
+
 # CI/CD Complete Guide
 
 ## Table of Contents

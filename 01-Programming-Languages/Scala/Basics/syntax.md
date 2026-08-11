@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Scala
+nav_order: 3
+---
+
 # Scala Syntax
 
 ## Overview

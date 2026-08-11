@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hash Table Cheatsheet
+parent: HashTable
+nav_order: 1
+---
+
 # Hash Table Cheat Sheet
 
 ## Core Concepts

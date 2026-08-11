@@ -1,3 +1,10 @@
+---
+layout: default
+title: Scalability Patterns
+parent: System Design
+nav_order: 4
+---
+
 # Scalability Patterns
 
 Patterns and techniques for building systems that handle growth gracefully.

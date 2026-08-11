@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Techniques
+parent: Competitive Programming
+nav_order: 9
+---
+
 # Competitive Programming Techniques
 
 ## Essential Algorithms and Techniques for Competitive Programming

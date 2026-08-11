@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQL Advanced
+parent: SQL
+nav_order: 1
+---
+
 # SQL Advanced Concepts
 
 ## 1. Indexing

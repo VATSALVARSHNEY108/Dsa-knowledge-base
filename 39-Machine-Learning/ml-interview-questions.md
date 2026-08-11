@@ -1,3 +1,10 @@
+---
+layout: default
+title: ML Interview Questions
+parent: Machine Learning
+nav_order: 4
+---
+
 # Advanced ML Interview Questions
 
 ## Table of Contents

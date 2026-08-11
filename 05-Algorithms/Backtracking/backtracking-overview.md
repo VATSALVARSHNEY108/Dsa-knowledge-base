@@ -1,3 +1,10 @@
+---
+layout: default
+title: Backtracking Overview
+parent: Backtracking
+nav_order: 2
+---
+
 # Backtracking Overview
 
 ## What is Backtracking?

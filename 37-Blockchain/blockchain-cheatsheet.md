@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blockchain Cheatsheet
+parent: Blockchain
+nav_order: 1
+---
+
 # Blockchain Cheat Sheet
 
 Quick reference for blocks, hashing, merkle trees, consensus,

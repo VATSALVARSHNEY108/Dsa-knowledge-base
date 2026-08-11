@@ -1,3 +1,10 @@
+---
+layout: default
+title: Competitive Programming
+has_children: true
+nav_order: 16
+---
+
 # Competitive Programming
 
 This directory contains learning materials and resources for competitive programming, focusing on the skills, techniques, and problem-solving strategies needed to excel in programming contests.

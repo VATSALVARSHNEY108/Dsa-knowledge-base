@@ -1,3 +1,10 @@
+---
+layout: default
+title: Problem Solving Frameworks
+parent: Problem Solving
+nav_order: 5
+---
+
 # Problem Solving Frameworks
 
 Structured approaches to tackle any programming problem systematically.

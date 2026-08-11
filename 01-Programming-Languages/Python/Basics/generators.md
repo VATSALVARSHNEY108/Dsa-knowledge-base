@@ -1,3 +1,10 @@
+---
+layout: default
+title: Generators
+parent: Python
+nav_order: 7
+---
+
 # Generators and Iterators in Python
 
 ## Overview

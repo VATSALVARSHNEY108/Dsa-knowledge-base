@@ -1,3 +1,10 @@
+---
+layout: default
+title: ML Feature Engineering
+parent: Machine Learning
+nav_order: 3
+---
+
 # Feature Engineering Guide
 
 ## Table of Contents

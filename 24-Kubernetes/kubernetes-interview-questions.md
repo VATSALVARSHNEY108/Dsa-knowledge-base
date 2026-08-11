@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kubernetes Interview Questions
+parent: Kubernetes
+nav_order: 6
+---
+
 # Kubernetes Interview Questions
 
 ## Fundamentals

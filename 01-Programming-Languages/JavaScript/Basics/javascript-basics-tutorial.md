@@ -1,3 +1,10 @@
+---
+layout: default
+title: Javascript Basics Tutorial
+parent: JavaScript
+nav_order: 2
+---
+
 # JavaScript Basics Tutorial
 
 ## Variables and Data Types

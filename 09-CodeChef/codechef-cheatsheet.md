@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codechef Cheatsheet
+parent: Codechef
+nav_order: 1
+---
+
 # CodeChef Cheatsheet
 
 Quick reference for contests, ratings, problem types, and strategy.

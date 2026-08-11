@@ -1,3 +1,10 @@
+---
+layout: default
+title: Dockerfile Best Practices
+parent: Docker
+nav_order: 7
+---
+
 # Dockerfile Best Practices
 
 ## Overview

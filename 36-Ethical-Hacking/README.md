@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Hacking
+has_children: true
+nav_order: 46
+---
+
 # Ethical Hacking
 
 ## Overview

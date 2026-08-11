@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codeforces
+has_children: true
+nav_order: 18
+---
+
 # 08 - Codeforces
 
 ## Overview

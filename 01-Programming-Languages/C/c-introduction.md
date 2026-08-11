@@ -1,3 +1,10 @@
+---
+layout: default
+title: C Introduction
+parent: C
+nav_order: 2
+---
+
 # C Introduction
 
 ## Why Learn C?

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Classes
+parent: PHP
+nav_order: 5
+---
+
 # PHP Classes Example
 
 ## Shape Hierarchy

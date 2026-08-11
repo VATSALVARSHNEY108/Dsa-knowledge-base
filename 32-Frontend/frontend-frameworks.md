@@ -1,3 +1,10 @@
+---
+layout: default
+title: Frontend Frameworks
+parent: Frontend
+nav_order: 3
+---
+
 # Frontend Frameworks - Comparisons & Deep Dives
 
 ## Table of Contents

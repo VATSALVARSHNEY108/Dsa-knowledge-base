@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Cheatsheet
+parent: AI
+nav_order: 2
+---
+
 # AI Cheat Sheet
 
 Quick reference for Artificial Intelligence concepts: the AI landscape,

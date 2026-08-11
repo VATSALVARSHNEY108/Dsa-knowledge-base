@@ -1,3 +1,11 @@
+---
+layout: default
+title: Arrays
+parent: Data Structures
+has_children: true
+nav_order: 1
+---
+
 # Arrays
 
 ## Overview

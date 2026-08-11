@@ -1,3 +1,10 @@
+---
+layout: default
+title: Devops Guide
+parent: Devops
+nav_order: 2
+---
+
 # DevOps Complete Guide - From Zero to DevOps Engineer
 
 ## Table of Contents

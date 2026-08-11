@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume
+has_children: true
+nav_order: 58
+---
+
 # Resume Writing Guide
 
 A comprehensive resource for crafting impactful technical resumes that land interviews.

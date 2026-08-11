@@ -1,3 +1,10 @@
+---
+layout: default
+title: Terraform Commands
+parent: Terraform
+nav_order: 3
+---
+
 # Terraform Commands Reference
 
 ## Core Workflow Commands

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Design Patterns
+has_children: true
+nav_order: 24
+---
+
 # 14. Design Patterns
 
 ## Overview

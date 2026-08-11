@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linux Administration
+parent: Linux
+nav_order: 1
+---
+
 # Linux Administration Guide
 
 ## 1. System Information

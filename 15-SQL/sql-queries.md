@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQL Queries
+parent: SQL
+nav_order: 6
+---
+
 # SQL Queries — Practical Examples
 
 ## Schema Used in Examples

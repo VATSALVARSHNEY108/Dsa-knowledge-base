@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tree Traversal Notes
+parent: Trees
+nav_order: 4
+---
+
 # Tree Traversal Notes
 
 ## Depth-First Search (DFS)

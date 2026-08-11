@@ -1,3 +1,10 @@
+---
+layout: default
+title: Testing Guide
+parent: Software Testing
+nav_order: 3
+---
+
 # Software Testing: Complete Guide
 
 ## Table of Contents

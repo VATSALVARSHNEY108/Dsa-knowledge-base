@@ -1,3 +1,10 @@
+---
+layout: default
+title: CI/CD Github Actions
+parent: CI CD
+nav_order: 3
+---
+
 # GitHub Actions CI/CD Guide
 
 This document covers setting up CI/CD pipelines using GitHub Actions.

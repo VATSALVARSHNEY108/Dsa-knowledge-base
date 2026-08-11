@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Kotlin
+nav_order: 3
+---
+
 # Kotlin Syntax
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Terraform Cheatsheet
+parent: Terraform
+nav_order: 2
+---
+
 # Terraform Cheat Sheet
 
 Quick reference for HashiCorp Terraform: HCL syntax, lifecycle commands, state,

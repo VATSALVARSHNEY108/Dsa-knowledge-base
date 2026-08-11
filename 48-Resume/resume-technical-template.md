@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume Technical Template
+parent: Resume
+nav_order: 4
+---
+
 # Technical Resume Template
 
 This document provides a structured template and guidelines for creating an effective technical resume.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Recursion Cheatsheet
+parent: Recursion
+nav_order: 1
+---
+
 # Recursion Cheat Sheet
 
 ## Fundamental Concepts

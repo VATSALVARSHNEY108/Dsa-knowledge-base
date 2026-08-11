@@ -1,3 +1,11 @@
+---
+layout: default
+title: R
+parent: Programming Languages
+has_children: true
+nav_order: 10
+---
+
 # R Programming Language
 
 ## Overview

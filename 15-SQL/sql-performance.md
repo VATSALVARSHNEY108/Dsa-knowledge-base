@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQL Performance
+parent: SQL
+nav_order: 5
+---
+
 # SQL Performance Optimization
 
 This document covers techniques for optimizing SQL queries and database performance.

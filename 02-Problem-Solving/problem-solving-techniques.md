@@ -1,3 +1,10 @@
+---
+layout: default
+title: Problem Solving Techniques
+parent: Problem Solving
+nav_order: 8
+---
+
 # Problem Solving Techniques
 
 A deep dive into the most effective techniques used in competitive programming and technical interviews.

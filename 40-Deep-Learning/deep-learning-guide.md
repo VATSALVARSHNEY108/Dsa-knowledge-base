@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning Guide
+parent: Deep Learning
+nav_order: 3
+---
+
 # Deep Learning Complete Guide
 
 ## Table of Contents

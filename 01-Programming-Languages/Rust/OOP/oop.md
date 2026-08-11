@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: Rust
+nav_order: 5
+---
+
 # Object-Oriented Programming in Rust
 
 ## Overview

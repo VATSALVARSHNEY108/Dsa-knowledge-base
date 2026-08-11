@@ -1,3 +1,11 @@
+---
+layout: default
+title: Dynamic-Programming
+parent: Algorithms
+has_children: true
+nav_order: 2
+---
+
 # Dynamic Programming
 
 This directory contains learning materials for dynamic programming, a powerful algorithmic technique for solving complex problems by breaking them down into simpler overlapping subproblems.

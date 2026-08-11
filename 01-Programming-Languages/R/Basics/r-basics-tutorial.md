@@ -1,3 +1,10 @@
+---
+layout: default
+title: R Basics Tutorial
+parent: R
+nav_order: 2
+---
+
 # R Basics Tutorial
 
 ## Variables and Constants

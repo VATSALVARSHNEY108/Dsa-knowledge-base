@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS Cheatsheet
+parent: AWS
+nav_order: 2
+---
+
 # AWS Cheat Sheet
 
 Quick reference for core AWS services grouped by category, pricing models, the

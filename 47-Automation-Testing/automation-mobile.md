@@ -1,3 +1,10 @@
+---
+layout: default
+title: Automation Mobile
+parent: Automation Testing
+nav_order: 4
+---
+
 # Mobile Test Automation Guide
 
 This document covers test automation strategies and tools for mobile applications.

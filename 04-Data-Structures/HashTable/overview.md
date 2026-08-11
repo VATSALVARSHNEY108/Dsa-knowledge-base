@@ -1,3 +1,10 @@
+---
+layout: default
+title: Overview
+parent: HashTable
+nav_order: 4
+---
+
 # Hash Table Overview
 
 ## Introduction

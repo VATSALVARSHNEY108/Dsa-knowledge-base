@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linux Guide
+parent: Linux
+nav_order: 4
+---
+
 # Linux Guide
 
 ## 1. Linux Architecture

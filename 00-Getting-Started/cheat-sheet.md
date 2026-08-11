@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cheat Sheet
+parent: Getting Started
+nav_order: 1
+---
+
 # ⚡ Quick Reference Cheat Sheet
 
 > Essential formulas, patterns, and templates for quick review before interviews or competitions.

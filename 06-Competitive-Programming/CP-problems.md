@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Problems
+parent: Competitive Programming
+nav_order: 8
+---
+
 # Competitive Programming Problems
 
 ## Curated Problem List with Solutions

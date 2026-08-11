@@ -1,3 +1,10 @@
+---
+layout: default
+title: Distributed Systems
+parent: System Design
+nav_order: 1
+---
+
 # Distributed Systems
 
 Core concepts and challenges in building distributed systems.

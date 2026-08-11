@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cheat Sheets
+has_children: true
+nav_order: 62
+---
+
 # DSA Cheat Sheets
 
 Quick reference guides for essential programming languages and tools used in data structures and algorithms.

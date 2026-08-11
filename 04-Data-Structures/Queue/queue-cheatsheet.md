@@ -1,3 +1,10 @@
+---
+layout: default
+title: Queue Cheatsheet
+parent: Queue
+nav_order: 2
+---
+
 # Queue Cheat Sheet
 
 ## Core Concepts

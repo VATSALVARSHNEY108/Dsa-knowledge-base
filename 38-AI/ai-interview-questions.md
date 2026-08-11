@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Interview Questions
+parent: AI
+nav_order: 6
+---
+
 # AI Interview Questions
 
 ## Table of Contents

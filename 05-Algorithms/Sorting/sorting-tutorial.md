@@ -1,3 +1,10 @@
+---
+layout: default
+title: Sorting Tutorial
+parent: Sorting
+nav_order: 4
+---
+
 # Sorting Algorithms Tutorial
 
 ## Introduction to Sorting

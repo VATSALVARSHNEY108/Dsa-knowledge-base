@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cloud Computing Guide
+parent: Cloud Computing
+nav_order: 4
+---
+
 # Cloud Computing Guide
 
 ## What is Cloud Computing?

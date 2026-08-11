@@ -1,3 +1,10 @@
+---
+layout: default
+title: Big Data Technologies
+parent: Big Data
+nav_order: 6
+---
+
 # Big Data Technologies Overview
 
 ## Overview

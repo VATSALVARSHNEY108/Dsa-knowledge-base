@@ -1,3 +1,10 @@
+---
+layout: default
+title: Computer Architecture Cheatsheet
+parent: Computer Architecture
+nav_order: 4
+---
+
 # Computer Architecture Cheat Sheet
 
 Quick reference for CPU structure, memory hierarchy, pipelining, ISA, and

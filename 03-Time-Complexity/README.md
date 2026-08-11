@@ -1,3 +1,10 @@
+---
+layout: default
+title: Time Complexity
+has_children: true
+nav_order: 13
+---
+
 # Time and Space Complexity Analysis
 
 Understanding time and space complexity is crucial for analyzing and comparing algorithms. This helps us predict how an algorithm will perform as the input size grows.

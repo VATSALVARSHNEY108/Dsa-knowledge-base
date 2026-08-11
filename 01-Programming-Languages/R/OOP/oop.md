@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: R
+nav_order: 6
+---
+
 # R Object-Oriented Programming
 
 ## Overview

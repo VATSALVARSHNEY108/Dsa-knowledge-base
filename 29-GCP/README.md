@@ -1,3 +1,10 @@
+---
+layout: default
+title: GCP
+has_children: true
+nav_order: 39
+---
+
 # Google Cloud Platform (GCP) - Cloud Computing Platform
 
 ## Overview

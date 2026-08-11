@@ -1,3 +1,11 @@
+---
+layout: default
+title: Swift
+parent: Programming Languages
+has_children: true
+nav_order: 14
+---
+
 # Swift
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Docker Compose
+parent: Docker
+nav_order: 2
+---
+
 # Docker Compose
 
 ## Overview

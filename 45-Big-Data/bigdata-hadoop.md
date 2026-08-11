@@ -1,3 +1,10 @@
+---
+layout: default
+title: Big Data Hadoop
+parent: Big Data
+nav_order: 4
+---
+
 # Hadoop Ecosystem Guide
 
 This document covers the Hadoop ecosystem and its components for big data processing.

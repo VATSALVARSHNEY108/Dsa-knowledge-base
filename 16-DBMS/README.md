@@ -1,3 +1,10 @@
+---
+layout: default
+title: DBMS
+has_children: true
+nav_order: 26
+---
+
 # DBMS (Database Management System)
 
 ## Overview

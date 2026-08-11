@@ -1,3 +1,10 @@
+---
+layout: default
+title: Sorting Overview
+parent: Sorting
+nav_order: 2
+---
+
 # Sorting Algorithms Overview
 
 ## Introduction

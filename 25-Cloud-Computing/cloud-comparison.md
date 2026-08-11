@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cloud Comparison
+parent: Cloud Computing
+nav_order: 2
+---
+
 # Cloud Provider Comparison
 
 ## Overview

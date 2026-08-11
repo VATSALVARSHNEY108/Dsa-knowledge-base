@@ -1,3 +1,10 @@
+---
+layout: default
+title: Devops Cheatsheet
+parent: Devops
+nav_order: 1
+---
+
 # DevOps Cheatsheet
 
 Quick reference for principles, practices, tools, and CI/CD basics.

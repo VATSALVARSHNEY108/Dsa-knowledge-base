@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kubernetes Cheatsheet
+parent: Kubernetes
+nav_order: 2
+---
+
 # Kubernetes Cheat Sheet
 
 Quick reference for architecture, kubectl, workloads, services,

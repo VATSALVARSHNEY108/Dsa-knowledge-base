@@ -1,3 +1,10 @@
+---
+layout: default
+title: Computer Architecture
+has_children: true
+nav_order: 31
+---
+
 # 21 - Computer Architecture
 
 ## Overview

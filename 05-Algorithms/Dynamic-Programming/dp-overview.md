@@ -1,3 +1,10 @@
+---
+layout: default
+title: DP Overview
+parent: Dynamic-Programming
+nav_order: 2
+---
+
 # Dynamic Programming (DP) Overview
 
 ## What is Dynamic Programming?

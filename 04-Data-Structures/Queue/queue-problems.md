@@ -1,3 +1,10 @@
+---
+layout: default
+title: Queue Problems
+parent: Queue
+nav_order: 3
+---
+
 # Queue Problems
 
 ## Easy Problems

@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Greedy
+parent: Competitive Programming
+nav_order: 5
+---
+
 # Competitive Programming Greedy Algorithms
 
 ## Greedy Algorithms for Competitive Programming

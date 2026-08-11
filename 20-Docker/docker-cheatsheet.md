@@ -1,3 +1,10 @@
+---
+layout: default
+title: Docker Cheatsheet
+parent: Docker
+nav_order: 1
+---
+
 # Docker Cheat Sheet
 
 Quick reference for Docker lifecycle, Dockerfile, Compose, networking,

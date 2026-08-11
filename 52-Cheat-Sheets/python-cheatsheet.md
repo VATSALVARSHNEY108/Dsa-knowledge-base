@@ -1,3 +1,10 @@
+---
+layout: default
+title: Python Cheatsheet
+parent: Cheat Sheets
+nav_order: 3
+---
+
 # Python Cheat Sheet for DSA
 
 Quick reference for Python data structures, algorithms, and common patterns.

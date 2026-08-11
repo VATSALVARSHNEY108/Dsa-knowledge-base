@@ -1,3 +1,10 @@
+---
+layout: default
+title: NLP Transformers
+parent: NLP
+nav_order: 6
+---
+
 # Transformers in NLP
 
 This document covers transformer architectures and their applications in natural language processing.

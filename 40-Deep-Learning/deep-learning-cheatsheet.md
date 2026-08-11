@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning Cheatsheet
+parent: Deep Learning
+nav_order: 2
+---
+
 # Deep Learning Cheat Sheet
 
 Quick reference for deep learning: network architectures, activations,

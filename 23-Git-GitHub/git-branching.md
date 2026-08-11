@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git Branching
+parent: Git Github
+nav_order: 2
+---
+
 # Git Branching Strategies
 
 ## 1. Branching Fundamentals

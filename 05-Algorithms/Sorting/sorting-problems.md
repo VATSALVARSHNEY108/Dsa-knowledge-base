@@ -1,3 +1,10 @@
+---
+layout: default
+title: Sorting Problems
+parent: Sorting
+nav_order: 3
+---
+
 # Sorting Problems
 
 ## Problem List

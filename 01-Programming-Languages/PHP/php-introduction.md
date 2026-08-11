@@ -1,3 +1,10 @@
+---
+layout: default
+title: Php Introduction
+parent: PHP
+nav_order: 2
+---
+
 # PHP Introduction
 
 ## Why Learn PHP?

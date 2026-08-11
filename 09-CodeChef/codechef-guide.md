@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codechef Guide
+parent: Codechef
+nav_order: 3
+---
+
 # CodeChef Complete Guide
 
 ## Getting Started

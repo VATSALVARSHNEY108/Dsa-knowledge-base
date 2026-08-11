@@ -1,3 +1,10 @@
+---
+layout: default
+title: Problem Solving Interview Questions
+parent: Problem Solving
+nav_order: 6
+---
+
 # Problem Solving Interview Questions
 
 ## Frequently Asked Questions

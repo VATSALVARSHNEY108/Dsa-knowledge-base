@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hash Table Tutorial
+parent: HashTable
+nav_order: 3
+---
+
 # Hash Table Tutorial
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Swift
+nav_order: 3
+---
+
 # Swift Syntax
 
 ## Overview

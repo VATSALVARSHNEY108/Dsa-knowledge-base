@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Concepts
+parent: AI
+nav_order: 3
+---
+
 # AI Core Concepts
 
 ## Table of Contents

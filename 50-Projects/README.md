@@ -1,3 +1,10 @@
+---
+layout: default
+title: Projects
+has_children: true
+nav_order: 60
+---
+
 # 50 DSA Projects
 
 A curated collection of 50 projects organized by difficulty to help you master Data Structures and Algorithms through hands-on practice.

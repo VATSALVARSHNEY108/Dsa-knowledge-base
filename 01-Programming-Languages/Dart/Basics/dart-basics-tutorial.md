@@ -1,3 +1,10 @@
+---
+layout: default
+title: Dart Basics Tutorial
+parent: Dart
+nav_order: 2
+---
+
 # Dart Basics Tutorial
 
 ## Variables and Constants

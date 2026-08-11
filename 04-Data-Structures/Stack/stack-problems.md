@@ -1,3 +1,10 @@
+---
+layout: default
+title: Stack Problems
+parent: Stack
+nav_order: 3
+---
+
 # Stack Problems
 
 ## Easy Problems

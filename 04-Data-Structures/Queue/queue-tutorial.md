@@ -1,3 +1,10 @@
+---
+layout: default
+title: Queue Tutorial
+parent: Queue
+nav_order: 4
+---
+
 # Queue Tutorial
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume Templates
+parent: Resume
+nav_order: 5
+---
+
 # Resume Templates
 
 ## Table of Contents

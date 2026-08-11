@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: TypeScript
+nav_order: 5
+---
+
 # Object-Oriented Programming in TypeScript
 
 ## Overview

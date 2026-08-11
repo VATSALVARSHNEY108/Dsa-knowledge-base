@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Ruby
+nav_order: 3
+---
+
 # Ruby Syntax
 
 ## Overview

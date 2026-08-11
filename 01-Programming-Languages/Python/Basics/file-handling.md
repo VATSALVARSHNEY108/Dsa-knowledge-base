@@ -1,3 +1,10 @@
+---
+layout: default
+title: File Handling
+parent: Python
+nav_order: 6
+---
+
 # File Handling in Python
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cloud Computing Cheatsheet
+parent: Cloud Computing
+nav_order: 3
+---
+
 # Cloud Computing Cheat Sheet
 
 Quick reference for cloud computing fundamentals: service models, deployment

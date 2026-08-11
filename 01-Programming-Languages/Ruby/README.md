@@ -1,3 +1,11 @@
+---
+layout: default
+title: Ruby
+parent: Programming Languages
+has_children: true
+nav_order: 11
+---
+
 # Ruby Programming Language
 
 ## Overview

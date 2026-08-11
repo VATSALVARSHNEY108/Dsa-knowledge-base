@@ -1,3 +1,10 @@
+---
+layout: default
+title: Graph Algorithms Overview
+parent: Graphs
+nav_order: 2
+---
+
 # Graph Algorithms Overview
 
 ## Introduction

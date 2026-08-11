@@ -1,3 +1,10 @@
+---
+layout: default
+title: DBMS Cheatsheet
+parent: DBMS
+nav_order: 1
+---
+
 # DBMS Cheat Sheet
 
 Quick reference for database fundamentals: ACID, database types,

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: C++
+nav_order: 3
+---
+
 # C++ Syntax Reference
 
 ## References vs Pointers

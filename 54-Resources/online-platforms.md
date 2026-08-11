@@ -1,3 +1,10 @@
+---
+layout: default
+title: Online Platforms
+parent: Resources
+nav_order: 3
+---
+
 # Online Platforms for DSA Practice
 
 Comprehensive guide to the best platforms for practicing Data Structures and Algorithms.

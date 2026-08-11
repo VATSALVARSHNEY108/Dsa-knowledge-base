@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS Services Overview
+parent: AWS
+nav_order: 5
+---
+
 # AWS Services Overview - Complete Reference Guide
 
 ## Table of Contents

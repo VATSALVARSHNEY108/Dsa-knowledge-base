@@ -1,3 +1,10 @@
+---
+layout: default
+title: Recursion Tutorial
+parent: Recursion
+nav_order: 4
+---
+
 # Recursion Tutorial
 
 ## Introduction to Recursion

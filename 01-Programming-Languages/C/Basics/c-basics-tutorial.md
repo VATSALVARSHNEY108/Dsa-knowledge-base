@@ -1,3 +1,10 @@
+---
+layout: default
+title: C Basics Tutorial
+parent: C
+nav_order: 2
+---
+
 # C Basics Tutorial
 
 ## Variables and Data Types

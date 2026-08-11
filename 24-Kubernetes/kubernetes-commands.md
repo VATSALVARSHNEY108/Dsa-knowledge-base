@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kubernetes Commands
+parent: Kubernetes
+nav_order: 3
+---
+
 # Kubernetes Commands Reference
 
 ## Cluster Information

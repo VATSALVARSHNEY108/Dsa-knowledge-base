@@ -1,3 +1,10 @@
+---
+layout: default
+title: NLP Cheatsheet
+parent: NLP
+nav_order: 2
+---
+
 # NLP Cheat Sheet
 
 Quick reference for natural language processing: pipeline, preprocessing,

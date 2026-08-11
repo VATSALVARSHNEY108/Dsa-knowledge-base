@@ -1,3 +1,10 @@
+---
+layout: default
+title: Testing Strategies
+parent: Software Testing
+nav_order: 5
+---
+
 # Testing Strategies: Building Effective Test Suites
 
 ## Table of Contents

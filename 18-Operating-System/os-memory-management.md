@@ -1,3 +1,10 @@
+---
+layout: default
+title: OS Memory Management
+parent: Operating System
+nav_order: 4
+---
+
 # Memory Management in Operating Systems
 
 ## Overview

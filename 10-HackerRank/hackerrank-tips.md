@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hackerrank Tips
+parent: Hackerrank
+nav_order: 6
+---
+
 # HackerRank Tips & Strategies
 
 ## Platform Tips

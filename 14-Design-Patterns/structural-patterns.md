@@ -1,3 +1,10 @@
+---
+layout: default
+title: Structural Patterns
+parent: Design Patterns
+nav_order: 5
+---
+
 # Structural Design Patterns
 
 Structural patterns deal with object composition, creating relationships between objects to form larger structures.

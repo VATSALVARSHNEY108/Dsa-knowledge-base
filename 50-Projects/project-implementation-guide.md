@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Implementation Guide
+parent: Projects
+nav_order: 2
+---
+
 # Project Implementation Guide
 
 Step-by-step methodology for implementing DSA projects from conception to completion.

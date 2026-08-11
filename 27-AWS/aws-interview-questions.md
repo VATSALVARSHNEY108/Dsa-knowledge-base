@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS Interview Questions
+parent: AWS
+nav_order: 4
+---
+
 # AWS Interview Questions - Comprehensive Guide
 
 ## Table of Contents

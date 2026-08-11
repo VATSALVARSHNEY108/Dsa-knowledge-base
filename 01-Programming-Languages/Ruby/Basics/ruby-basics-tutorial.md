@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ruby Basics Tutorial
+parent: Ruby
+nav_order: 2
+---
+
 # Ruby Basics Tutorial
 
 ## Variables and Constants

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Frontend
+has_children: true
+nav_order: 42
+---
+
 # Frontend Development
 
 ## Overview

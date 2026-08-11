@@ -1,3 +1,10 @@
+---
+layout: default
+title: Devops Metrics
+parent: Devops
+nav_order: 4
+---
+
 # DevOps Metrics and KPIs
 
 This document covers key metrics and KPIs for measuring DevOps effectiveness.

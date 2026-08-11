@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Python
+nav_order: 8
+---
+
 # Python Syntax Basics
 
 ## Hello, World!

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Docker Networking
+parent: Docker
+nav_order: 5
+---
+
 # Docker Networking
 
 ## Overview

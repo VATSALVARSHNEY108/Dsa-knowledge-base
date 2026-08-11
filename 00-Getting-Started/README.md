@@ -1,3 +1,10 @@
+---
+layout: default
+title: Getting Started
+has_children: true
+nav_order: 10
+---
+
 # Getting Started with the CS & Software Engineering Knowledge Base
 
 Welcome! This repository is a **55-topic reference covering computer science fundamentals, software engineering practices, and interview preparation**. Everything is organized as documentation with code examples — no builds, no tests, no CI/CD.

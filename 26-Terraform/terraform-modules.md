@@ -1,3 +1,10 @@
+---
+layout: default
+title: Terraform Modules
+parent: Terraform
+nav_order: 5
+---
+
 # Terraform Modules
 
 ## Overview

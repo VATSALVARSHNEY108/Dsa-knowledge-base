@@ -1,3 +1,10 @@
+---
+layout: default
+title: Fullstack Guide
+parent: Full Stack
+nav_order: 2
+---
+
 # Full-Stack Development Complete Guide
 
 ## Table of Contents

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Java Basics Tutorial
+parent: Java
+nav_order: 2
+---
+
 # Java Basics Tutorial
 
 ## Variables and Data Types

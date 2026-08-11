@@ -1,3 +1,10 @@
+---
+layout: default
+title: Time Space Complexity
+parent: Time Complexity
+nav_order: 6
+---
+
 # Time and Space Complexity
 
 ## Big O Notation

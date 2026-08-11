@@ -1,3 +1,10 @@
+---
+layout: default
+title: Complexity Examples
+parent: Time Complexity
+nav_order: 3
+---
+
 # Complexity Analysis: Worked Examples
 
 Practice analyzing the time and space complexity of real code.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Overview
+parent: Data Structures
+nav_order: 2
+---
+
 # Data Structures Overview
 
 ## What is a Data Structure?

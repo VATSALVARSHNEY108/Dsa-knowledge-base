@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codechef
+has_children: true
+nav_order: 19
+---
+
 # 09 - CodeChef
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Design Patterns Guide
+parent: Design Patterns
+nav_order: 4
+---
+
 # Design Patterns — Complete Guide
 
 ## What Are Design Patterns?

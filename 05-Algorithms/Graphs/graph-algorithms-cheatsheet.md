@@ -1,3 +1,10 @@
+---
+layout: default
+title: Graph Algorithms Cheatsheet
+parent: Graphs
+nav_order: 1
+---
+
 # Graph Algorithms Cheat Sheet
 
 ## Fundamental Concepts

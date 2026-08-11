@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codechef Problem Categories
+parent: Codechef
+nav_order: 4
+---
+
 # CodeChef Problem Categories
 
 ## Overview

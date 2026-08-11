@@ -1,3 +1,10 @@
+---
+layout: default
+title: Algorithms Flashcards
+parent: Flashcards
+nav_order: 1
+---
+
 # Algorithms Flashcards
 
 Q&A flashcards covering essential algorithms for coding interviews.

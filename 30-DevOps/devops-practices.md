@@ -1,3 +1,10 @@
+---
+layout: default
+title: Devops Practices
+parent: Devops
+nav_order: 5
+---
+
 # DevOps Practices - Industry Best Practices & Methods
 
 ## Table of Contents

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kotlin Basics Tutorial
+parent: Kotlin
+nav_order: 2
+---
+
 # Kotlin Basics Tutorial
 
 ## Variables and Constants

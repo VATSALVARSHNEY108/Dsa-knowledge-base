@@ -1,3 +1,10 @@
+---
+layout: default
+title: GCP Interview Questions
+parent: GCP
+nav_order: 4
+---
+
 # GCP Interview Questions - Comprehensive Guide
 
 ## Table of Contents

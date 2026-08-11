@@ -1,3 +1,10 @@
+---
+layout: default
+title: Scala Basics Tutorial
+parent: Scala
+nav_order: 2
+---
+
 # Scala Basics Tutorial
 
 ## Variables and Constants

@@ -1,3 +1,11 @@
+---
+layout: default
+title: PHP
+parent: Programming Languages
+has_children: true
+nav_order: 8
+---
+
 # PHP Programming Language
 
 ## Overview

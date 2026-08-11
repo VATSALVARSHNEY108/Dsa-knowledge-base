@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume Technical Projects
+parent: Resume
+nav_order: 3
+---
+
 # Technical Projects: Showcasing Your Work
 
 ## Table of Contents

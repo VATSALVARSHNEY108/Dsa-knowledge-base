@@ -1,3 +1,10 @@
+---
+layout: default
+title: Full Explanation
+parent: Getting Started
+nav_order: 2
+---
+
 # Data Structures and Algorithms (DSA) - Full Explanation
 
 ## What is DSA?

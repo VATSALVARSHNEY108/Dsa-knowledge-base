@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git Guide
+parent: Git Github
+nav_order: 5
+---
+
 # Git Guide - Core Concepts
 
 ## 1. What is Git?

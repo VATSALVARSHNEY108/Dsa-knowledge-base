@@ -1,3 +1,10 @@
+---
+layout: default
+title: Php Basics Tutorial
+parent: PHP
+nav_order: 2
+---
+
 # PHP Basics Tutorial
 
 ## Variables and Constants

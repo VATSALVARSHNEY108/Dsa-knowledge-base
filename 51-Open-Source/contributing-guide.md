@@ -1,3 +1,10 @@
+---
+layout: default
+title: Contributing Guide
+parent: Open Source
+nav_order: 1
+---
+
 # Contributing to Open Source
 
 A practical guide to making your first open source contribution and building a track record.

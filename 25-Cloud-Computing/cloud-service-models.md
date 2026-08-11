@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cloud Service Models
+parent: Cloud Computing
+nav_order: 6
+---
+
 # Cloud Service Models
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Backtracking Problems
+parent: Backtracking
+nav_order: 3
+---
+
 # Backtracking Problems
 
 This file contains a comprehensive collection of backtracking problems organized by difficulty level, each with detailed explanations, examples, and solutions.

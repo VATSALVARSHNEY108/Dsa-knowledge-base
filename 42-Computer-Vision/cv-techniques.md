@@ -1,3 +1,10 @@
+---
+layout: default
+title: CV Techniques
+parent: Computer Vision
+nav_order: 5
+---
+
 # Computer Vision Techniques
 
 ## Table of Contents

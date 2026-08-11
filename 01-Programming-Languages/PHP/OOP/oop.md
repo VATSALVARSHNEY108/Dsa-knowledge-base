@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: PHP
+nav_order: 6
+---
+
 # PHP Object-Oriented Programming
 
 ## Overview

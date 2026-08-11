@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Geometry
+parent: Competitive Programming
+nav_order: 3
+---
+
 # Competitive Programming Geometry
 
 ## Computational Geometry for Competitive Programming

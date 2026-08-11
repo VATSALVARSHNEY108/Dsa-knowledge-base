@@ -1,3 +1,10 @@
+---
+layout: default
+title: Error Handling
+parent: Python
+nav_order: 5
+---
+
 # Error Handling in Python
 
 ## Overview

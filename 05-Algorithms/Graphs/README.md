@@ -1,3 +1,11 @@
+---
+layout: default
+title: Graphs
+parent: Algorithms
+has_children: true
+nav_order: 3
+---
+
 # Graph Algorithms
 
 ## Overview

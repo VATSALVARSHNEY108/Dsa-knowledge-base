@@ -1,3 +1,10 @@
+---
+layout: default
+title: Java Fundamentals
+has_children: true
+nav_order: 29
+---
+
 # Java Fundamentals
 
 ## Basic Syntax

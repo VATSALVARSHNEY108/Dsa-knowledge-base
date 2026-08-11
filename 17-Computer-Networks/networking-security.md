@@ -1,3 +1,10 @@
+---
+layout: default
+title: Networking Security
+parent: Computer Networks
+nav_order: 5
+---
+
 # Network Security Fundamentals
 
 This document covers essential network security concepts and practices.

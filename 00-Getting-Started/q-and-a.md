@@ -1,3 +1,10 @@
+---
+layout: default
+title: Q and A
+parent: Getting Started
+nav_order: 10
+---
+
 # Data Structures and Algorithms (DSA) - Q&A
 
 ## Common DSA Interview Questions

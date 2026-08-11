@@ -1,3 +1,10 @@
+---
+layout: default
+title: Computer Vision Cheatsheet
+parent: Computer Vision
+nav_order: 1
+---
+
 # Computer Vision Cheatsheet
 
 Quick reference for CV tasks, image representation, and CNNs.

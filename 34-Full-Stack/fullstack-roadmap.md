@@ -1,3 +1,10 @@
+---
+layout: default
+title: Fullstack Roadmap
+parent: Full Stack
+nav_order: 6
+---
+
 # Full-Stack Developer Roadmap
 
 ## Table of Contents

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Backtracking
+parent: Algorithms
+has_children: true
+nav_order: 1
+---
+
 # Backtracking Algorithm
 
 This directory contains comprehensive learning materials for backtracking algorithms, a fundamental technique for solving constraint satisfaction and combinatorial problems.

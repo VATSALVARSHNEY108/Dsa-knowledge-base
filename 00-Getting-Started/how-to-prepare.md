@@ -1,3 +1,10 @@
+---
+layout: default
+title: How to Prepare
+parent: Getting Started
+nav_order: 4
+---
+
 # How to Prepare for Data Structures and Algorithms (DSA)
 
 ## Step-by-Step Preparation Guide

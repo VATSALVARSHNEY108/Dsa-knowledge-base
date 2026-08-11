@@ -1,3 +1,11 @@
+---
+layout: default
+title: Dart
+parent: Programming Languages
+has_children: true
+nav_order: 3
+---
+
 # Dart
 
 ## Overview

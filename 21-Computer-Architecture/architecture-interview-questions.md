@@ -1,3 +1,10 @@
+---
+layout: default
+title: Architecture Interview Questions
+parent: Computer Architecture
+nav_order: 2
+---
+
 # Computer Architecture Interview Questions
 
 ## Table of Contents

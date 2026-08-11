@@ -1,3 +1,11 @@
+---
+layout: default
+title: Java
+parent: Programming Languages
+has_children: true
+nav_order: 5
+---
+
 # Java
 
 This directory contains Java programming language resources, tutorials, examples, and exercises.

@@ -7,6 +7,29 @@ color_scheme: dark
 url: "https://shubhu-io.github.io"
 baseurl: "/Dsa-knowledge-base"
 
+# Files/folders that should NOT be part of the built site
+exclude:
+  - wiki
+  - .vscode
+  - .git
+  - .gitignore
+  - "*.sh"
+  - ".GITHUB_UPLOAD_STEPS.md"
+  - ".HOW_TO_MAKE_BEAUTIFUL_WEBSITE.md"
+  - "assets/README.md"
+  - "README.md"
+  - "SUMMARY.md"
+  - "CONTRIBUTING.md"
+  - "AGENTS.md"
+  - "LICENSE"
+
+# README.md files render as their folder's section page
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 # Search
 search_enabled: true
 search:
@@ -35,7 +58,7 @@ gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/shubhu-io/Dsa-knowledge-base"
 gh_edit_branch: "main"
-gh_edit_source: "docs"
+gh_edit_source: ""
 gh_edit_view_mode: "edit"
 
 # Code copy button (enabled by default; explicit for clarity)

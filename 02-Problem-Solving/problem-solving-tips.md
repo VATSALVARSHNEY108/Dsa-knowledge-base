@@ -1,3 +1,10 @@
+---
+layout: default
+title: Problem Solving Tips
+parent: Problem Solving
+nav_order: 9
+---
+
 # Problem Solving Tips
 
 ## Top 20 Problem Solving Tips

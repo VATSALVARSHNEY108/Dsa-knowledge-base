@@ -1,3 +1,10 @@
+---
+layout: default
+title: Open Source Cheatsheet
+parent: Open Source
+nav_order: 4
+---
+
 # Open Source Cheat Sheet
 
 Quick reference for contributing to open source: finding projects, the

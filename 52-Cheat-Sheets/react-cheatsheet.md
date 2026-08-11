@@ -1,3 +1,10 @@
+---
+layout: default
+title: React Cheatsheet
+parent: Cheat Sheets
+nav_order: 4
+---
+
 # React Cheat Sheet
 
 Quick reference for React concepts, hooks, and patterns.

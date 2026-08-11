@@ -1,3 +1,10 @@
+---
+layout: default
+title: Classes
+parent: Scala
+nav_order: 5
+---
+
 # Scala Classes Example
 
 ## Shape Hierarchy

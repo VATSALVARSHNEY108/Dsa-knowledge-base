@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Cheatsheet
+parent: Competitive Programming
+nav_order: 1
+---
+
 # Competitive Programming Cheatsheet
 
 Quick reference for contest strategy, complexity budgets,

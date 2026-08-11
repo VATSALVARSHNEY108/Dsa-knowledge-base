@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: TypeScript
+nav_order: 2
+---
+
 # TypeScript Syntax
 
 ## Overview

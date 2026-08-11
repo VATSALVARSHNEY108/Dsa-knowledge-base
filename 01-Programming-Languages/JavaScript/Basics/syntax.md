@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: JavaScript
+nav_order: 3
+---
+
 # JavaScript Syntax Reference
 
 ## let, const, and var

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tree Problems
+parent: Trees
+nav_order: 3
+---
+
 # Tree Problems
 
 This file contains a collection of practice problems organized by difficulty level, focusing on tree data structures and their applications.

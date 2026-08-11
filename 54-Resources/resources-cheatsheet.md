@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resources Cheatsheet
+parent: Resources
+nav_order: 4
+---
+
 # Resources Cheat Sheet
 
 A curated quick-reference of top books, websites, YouTube channels,

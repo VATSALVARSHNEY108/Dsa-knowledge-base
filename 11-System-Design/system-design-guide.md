@@ -1,3 +1,10 @@
+---
+layout: default
+title: System Design Guide
+parent: System Design
+nav_order: 6
+---
+
 # System Design Guide
 
 A comprehensive guide to designing scalable, reliable, and efficient systems.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Contest Strategy
+parent: Codeforces
+nav_order: 6
+---
+
 # Codeforces Contest Strategy
 
 This document provides strategies and tips for performing well in Codeforces contests.

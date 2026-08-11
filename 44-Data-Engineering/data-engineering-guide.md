@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Engineering Guide
+parent: Data Engineering
+nav_order: 2
+---
+
 # Data Engineering Comprehensive Guide
 
 ## Table of Contents

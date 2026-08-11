@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git Cheatsheet
+parent: Cheat Sheets
+nav_order: 1
+---
+
 # Git Cheat Sheet for DSA
 
 Quick reference for Git commands, workflows, and best practices for collaborative development.

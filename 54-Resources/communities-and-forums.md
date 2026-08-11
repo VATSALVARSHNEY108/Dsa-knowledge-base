@@ -1,3 +1,10 @@
+---
+layout: default
+title: Communities and Forums
+parent: Resources
+nav_order: 2
+---
+
 # Communities and Forums for DSA
 
 A comprehensive guide to online communities, forums, Discord servers, and meetups for learning and discussing Data Structures and Algorithms.

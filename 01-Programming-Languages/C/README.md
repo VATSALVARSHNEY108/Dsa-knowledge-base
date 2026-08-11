@@ -1,3 +1,11 @@
+---
+layout: default
+title: C
+parent: Programming Languages
+has_children: true
+nav_order: 1
+---
+
 # C Programming Language
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: GO Introduction
+parent: Go
+nav_order: 2
+---
+
 # Go Introduction
 
 ## Why Learn Go?

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Azure Cheatsheet
+parent: Azure
+nav_order: 2
+---
+
 # Azure Cheat Sheet
 
 Quick reference for core Azure services, resource groups, identity,

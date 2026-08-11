@@ -1,3 +1,10 @@
+---
+layout: default
+title: Open Source Guide
+parent: Open Source
+nav_order: 6
+---
+
 # Open Source Guide
 
 A comprehensive guide to understanding, participating in, and thriving in the open source ecosystem.

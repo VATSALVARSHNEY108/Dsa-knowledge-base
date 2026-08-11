@@ -1,3 +1,10 @@
+---
+layout: default
+title: Decorators
+parent: Python
+nav_order: 4
+---
+
 # Decorators in Python
 
 ## Overview

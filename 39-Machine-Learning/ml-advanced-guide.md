@@ -1,3 +1,10 @@
+---
+layout: default
+title: ML Advanced Guide
+parent: Machine Learning
+nav_order: 1
+---
+
 # Advanced Machine Learning Guide
 
 ## Table of Contents

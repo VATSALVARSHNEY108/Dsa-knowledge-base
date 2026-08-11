@@ -1,3 +1,10 @@
+---
+layout: default
+title: Overview
+parent: Queue
+nav_order: 1
+---
+
 # Queue Overview
 
 ## Introduction

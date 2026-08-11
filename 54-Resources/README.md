@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resources
+has_children: true
+nav_order: 64
+---
+
 # DSA Resources
 
 Curated collection of books, courses, platforms, videos, and communities for mastering Data Structures and Algorithms.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codechef Contest Strategy
+parent: Codechef
+nav_order: 2
+---
+
 # CodeChef Contest Strategy
 
 This document provides strategies for performing well in CodeChef contests.

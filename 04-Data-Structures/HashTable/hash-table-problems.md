@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hash Table Problems
+parent: HashTable
+nav_order: 2
+---
+
 # Hash Table Problems
 
 ## Easy Problems

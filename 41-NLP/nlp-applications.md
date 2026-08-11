@@ -1,3 +1,10 @@
+---
+layout: default
+title: NLP Applications
+parent: NLP
+nav_order: 1
+---
+
 # NLP Applications
 
 ## Table of Contents

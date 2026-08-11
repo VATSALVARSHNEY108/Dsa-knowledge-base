@@ -1,3 +1,10 @@
+---
+layout: default
+title: Behavioral Interviews Cheatsheet
+parent: Behavioral Interviews
+nav_order: 2
+---
+
 # Behavioral Interviews Cheat Sheet
 
 Quick reference for acing behavioral interviews: the STAR method, story

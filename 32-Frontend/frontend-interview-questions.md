@@ -1,3 +1,10 @@
+---
+layout: default
+title: Frontend Interview Questions
+parent: Frontend
+nav_order: 5
+---
+
 # Frontend Interview Questions
 
 ## Table of Contents

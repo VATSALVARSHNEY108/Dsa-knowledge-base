@@ -1,3 +1,10 @@
+---
+layout: default
+title: NLP Techniques
+parent: NLP
+nav_order: 5
+---
+
 # NLP Techniques
 
 ## Table of Contents

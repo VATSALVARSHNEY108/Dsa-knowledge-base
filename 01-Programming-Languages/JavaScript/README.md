@@ -1,3 +1,11 @@
+---
+layout: default
+title: JavaScript
+parent: Programming Languages
+has_children: true
+nav_order: 6
+---
+
 # JavaScript Programming Language
 
 ## Overview

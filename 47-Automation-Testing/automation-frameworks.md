@@ -1,3 +1,10 @@
+---
+layout: default
+title: Automation Frameworks
+parent: Automation Testing
+nav_order: 2
+---
+
 # Automation Frameworks: Comprehensive Guide
 
 ## Table of Contents

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Frontend Cheatsheet
+parent: Frontend
+nav_order: 2
+---
+
 # Frontend Cheat Sheet
 
 Quick reference for HTML5, CSS, JavaScript, DOM, async programming, and React.

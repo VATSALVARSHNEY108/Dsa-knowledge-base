@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: Ruby
+nav_order: 6
+---
+
 # Ruby Object-Oriented Programming
 
 ## Overview

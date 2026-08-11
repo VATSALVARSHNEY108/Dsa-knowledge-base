@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linux Shell Scripting
+parent: Linux
+nav_order: 6
+---
+
 # Linux Shell Scripting Guide
 
 ## 1. Introduction to Shell Scripting

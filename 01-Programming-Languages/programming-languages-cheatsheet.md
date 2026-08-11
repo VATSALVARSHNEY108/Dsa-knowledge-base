@@ -1,3 +1,10 @@
+---
+layout: default
+title: Programming Languages Cheatsheet
+parent: Programming Languages
+nav_order: 1
+---
+
 # Programming Languages Cheatsheet
 
 Quick reference for common syntax across popular languages

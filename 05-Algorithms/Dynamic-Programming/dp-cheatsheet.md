@@ -1,3 +1,10 @@
+---
+layout: default
+title: DP Cheatsheet
+parent: Dynamic-Programming
+nav_order: 1
+---
+
 # Dynamic Programming Cheat Sheet
 
 ## Core Concept

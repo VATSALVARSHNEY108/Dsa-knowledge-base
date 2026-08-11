@@ -1,3 +1,11 @@
+---
+layout: default
+title: Scala
+parent: Programming Languages
+has_children: true
+nav_order: 13
+---
+
 # Scala Programming Language
 
 ## Overview

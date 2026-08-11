@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Algorithms
+parent: AI
+nav_order: 1
+---
+
 # AI Algorithms
 
 ## Table of Contents

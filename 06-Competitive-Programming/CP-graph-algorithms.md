@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Graph Algorithms
+parent: Competitive Programming
+nav_order: 4
+---
+
 # Competitive Programming Graph Algorithms
 
 ## Essential Graph Algorithms for Competitive Programming

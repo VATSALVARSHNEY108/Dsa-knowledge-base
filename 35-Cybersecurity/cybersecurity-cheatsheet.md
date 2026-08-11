@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cybersecurity Cheatsheet
+parent: Cybersecurity
+nav_order: 1
+---
+
 # Cybersecurity Cheat Sheet
 
 Quick reference for core security concepts, common attacks, defense

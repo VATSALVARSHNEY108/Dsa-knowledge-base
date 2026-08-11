@@ -1,3 +1,10 @@
+---
+layout: default
+title: CI/CD Best Practices
+parent: CI CD
+nav_order: 1
+---
+
 # CI/CD Best Practices
 
 ## Table of Contents

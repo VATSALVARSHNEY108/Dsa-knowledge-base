@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resources Interview Prep
+parent: Resources
+nav_order: 5
+---
+
 # Interview Preparation Resources
 
 This document provides a comprehensive list of resources for technical interview preparation.

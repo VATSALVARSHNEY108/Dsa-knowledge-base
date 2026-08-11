@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codeforces Tips
+parent: Codeforces
+nav_order: 5
+---
+
 # Codeforces Tips & Strategies
 
 ## Contest Preparation

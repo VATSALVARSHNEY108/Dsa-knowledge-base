@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: R
+nav_order: 3
+---
+
 # R Syntax
 
 ## Overview

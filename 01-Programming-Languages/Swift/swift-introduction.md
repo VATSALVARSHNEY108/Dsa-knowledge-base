@@ -1,3 +1,10 @@
+---
+layout: default
+title: Swift Introduction
+parent: Swift
+nav_order: 2
+---
+
 # Swift Introduction
 
 ## Why Learn Swift?

@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP Principles
+parent: Object Oriented Programming
+nav_order: 5
+---
+
 # Object-Oriented Programming — The 4 Pillars Deep Dive
 
 ## The Four Pillars at a Glance

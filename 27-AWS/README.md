@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS
+has_children: true
+nav_order: 37
+---
+
 # Amazon Web Services (AWS) - Cloud Computing Platform
 
 ## Overview

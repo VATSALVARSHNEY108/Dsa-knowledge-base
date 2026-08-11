@@ -1,3 +1,10 @@
+---
+layout: default
+title: Projects Cheatsheet
+parent: Projects
+nav_order: 6
+---
+
 # Projects Cheat Sheet
 
 Quick reference for planning, building, documenting, and presenting

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Brute Force to Optimal
+parent: Problem Solving
+nav_order: 1
+---
+
 # Brute Force to Optimal: The Optimization Journey
 
 How to systematically evolve a naive solution into an optimal one.

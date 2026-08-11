@@ -1,3 +1,11 @@
+---
+layout: default
+title: Rust
+parent: Programming Languages
+has_children: true
+nav_order: 12
+---
+
 # Rust Programming Language
 
 ## Overview

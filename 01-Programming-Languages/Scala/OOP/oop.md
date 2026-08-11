@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: Scala
+nav_order: 6
+---
+
 # Scala Object-Oriented Programming
 
 ## Overview

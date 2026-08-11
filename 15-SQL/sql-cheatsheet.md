@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQL Cheatsheet
+parent: SQL
+nav_order: 2
+---
+
 # SQL Cheat Sheet
 
 Quick reference for writing, optimising, and understanding SQL:

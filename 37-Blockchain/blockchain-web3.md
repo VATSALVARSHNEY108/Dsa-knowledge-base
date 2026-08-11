@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blockchain Web3
+parent: Blockchain
+nav_order: 6
+---
+
 # Web3 Development Guide
 
 This document covers Web3 development concepts, tools, and best practices.

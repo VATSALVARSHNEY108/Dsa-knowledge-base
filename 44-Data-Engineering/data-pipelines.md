@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Pipelines
+parent: Data Engineering
+nav_order: 5
+---
+
 # Data Pipelines Design and Implementation
 
 ## Overview

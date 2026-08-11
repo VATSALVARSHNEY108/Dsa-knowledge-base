@@ -1,3 +1,10 @@
+---
+layout: default
+title: ML Cheatsheet
+parent: Machine Learning
+nav_order: 2
+---
+
 # ML Cheat Sheet
 
 Quick reference for machine learning: learning paradigms, algorithm

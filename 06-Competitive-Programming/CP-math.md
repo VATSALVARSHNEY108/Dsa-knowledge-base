@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Math
+parent: Competitive Programming
+nav_order: 7
+---
+
 # Competitive Programming Mathematics
 
 ## Essential Mathematical Concepts for Competitive Programming

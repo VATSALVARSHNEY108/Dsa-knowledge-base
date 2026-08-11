@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQL Interview Questions
+parent: SQL
+nav_order: 4
+---
+
 # SQL Interview Questions
 
 ## Basic Questions

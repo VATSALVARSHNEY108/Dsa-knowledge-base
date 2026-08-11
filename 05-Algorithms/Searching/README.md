@@ -1,3 +1,11 @@
+---
+layout: default
+title: Searching
+parent: Algorithms
+has_children: true
+nav_order: 5
+---
+
 # Searching Algorithms
 
 ## Overview

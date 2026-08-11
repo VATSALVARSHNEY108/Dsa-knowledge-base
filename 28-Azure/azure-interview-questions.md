@@ -1,3 +1,10 @@
+---
+layout: default
+title: Azure Interview Questions
+parent: Azure
+nav_order: 4
+---
+
 # Azure Interview Questions - Comprehensive Guide
 
 ## Table of Contents

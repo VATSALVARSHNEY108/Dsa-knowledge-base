@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning
+has_children: true
+nav_order: 50
+---
+
 # Deep Learning
 
 ## Overview

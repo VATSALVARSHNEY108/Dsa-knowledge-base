@@ -1,3 +1,10 @@
+---
+layout: default
+title: Leetcode Guide
+parent: Leetcode
+nav_order: 3
+---
+
 # LeetCode Complete Guide
 
 ## Getting Started

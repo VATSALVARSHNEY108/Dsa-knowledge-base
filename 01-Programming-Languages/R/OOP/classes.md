@@ -1,3 +1,10 @@
+---
+layout: default
+title: Classes
+parent: R
+nav_order: 5
+---
+
 # R Classes Example
 
 ## Shape Hierarchy

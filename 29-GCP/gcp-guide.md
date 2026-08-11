@@ -1,3 +1,10 @@
+---
+layout: default
+title: GCP Guide
+parent: GCP
+nav_order: 3
+---
+
 # GCP Complete Guide - From Zero to Cloud Architect
 
 ## Table of Contents

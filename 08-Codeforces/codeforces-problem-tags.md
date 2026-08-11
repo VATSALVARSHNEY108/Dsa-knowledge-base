@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codeforces Problem Tags
+parent: Codeforces
+nav_order: 3
+---
+
 # Codeforces Problem Tags
 
 ## Overview

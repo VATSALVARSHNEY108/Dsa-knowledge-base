@@ -1,3 +1,10 @@
+---
+layout: default
+title: DBMS Transactions
+parent: DBMS
+nav_order: 6
+---
+
 # DBMS Transactions & Concurrency Control
 
 ## 1. What is a Transaction?

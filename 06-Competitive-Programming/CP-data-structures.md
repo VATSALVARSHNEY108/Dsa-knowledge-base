@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Data Structures
+parent: Competitive Programming
+nav_order: 2
+---
+
 # Competitive Programming Data Structures
 
 ## Specialized Data Structures for Competitive Programming

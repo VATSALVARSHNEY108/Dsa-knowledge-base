@@ -1,3 +1,10 @@
+---
+layout: default
+title: Design Patterns Cheatsheet
+parent: Design Patterns
+nav_order: 3
+---
+
 # Design Patterns Cheat Sheet
 
 Quick reference for the Gang of Four (GoF) patterns: creational,

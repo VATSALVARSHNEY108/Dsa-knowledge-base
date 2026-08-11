@@ -1,3 +1,10 @@
+---
+layout: default
+title: Mlops Tools
+parent: Mlops
+nav_order: 5
+---
+
 # MLOps Tools Comparison
 
 ## Overview

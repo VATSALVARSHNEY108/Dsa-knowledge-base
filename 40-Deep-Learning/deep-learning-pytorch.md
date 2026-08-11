@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning Pytorch
+parent: Deep Learning
+nav_order: 5
+---
+
 # Deep Learning with PyTorch
 
 This document covers deep learning concepts and implementation using PyTorch.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Stack Tutorial
+parent: Stack
+nav_order: 4
+---
+
 # Stack Tutorial
 
 ## Overview

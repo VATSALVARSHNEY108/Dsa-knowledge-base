@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linux Cheatsheet
+parent: Linux
+nav_order: 2
+---
+
 # Linux Cheat Sheet
 
 Quick reference for filesystem, permissions, processes, text tools, package

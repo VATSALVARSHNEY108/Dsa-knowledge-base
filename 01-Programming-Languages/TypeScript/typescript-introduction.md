@@ -1,3 +1,10 @@
+---
+layout: default
+title: Typescript Introduction
+parent: TypeScript
+nav_order: 2
+---
+
 # TypeScript Introduction
 
 ## Why Learn TypeScript?

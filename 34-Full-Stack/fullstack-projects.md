@@ -1,3 +1,10 @@
+---
+layout: default
+title: Fullstack Projects
+parent: Full Stack
+nav_order: 5
+---
+
 # Full-Stack Projects
 
 ## Table of Contents

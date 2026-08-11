@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kubernetes Architecture
+parent: Kubernetes
+nav_order: 1
+---
+
 # Kubernetes Architecture
 
 ## Overview

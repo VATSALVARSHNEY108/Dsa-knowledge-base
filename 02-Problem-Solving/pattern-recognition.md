@@ -1,3 +1,10 @@
+---
+layout: default
+title: Pattern Recognition
+parent: Problem Solving
+nav_order: 3
+---
+
 # Pattern Recognition in Problem Solving
 
 Recognizing patterns is the fastest way to solve problems. Most interview problems map to 15-20 core patterns.

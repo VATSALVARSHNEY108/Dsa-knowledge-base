@@ -1,3 +1,10 @@
+---
+layout: default
+title: Overview
+parent: Problem Solving
+nav_order: 2
+---
+
 # Problem Solving Overview
 
 ## What is Problem Solving?

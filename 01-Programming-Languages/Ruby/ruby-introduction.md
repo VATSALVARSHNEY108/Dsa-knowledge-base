@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ruby Introduction
+parent: Ruby
+nav_order: 2
+---
+
 # Ruby Introduction
 
 ## Why Learn Ruby?

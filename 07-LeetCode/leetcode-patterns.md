@@ -1,3 +1,10 @@
+---
+layout: default
+title: Leetcode Patterns
+parent: Leetcode
+nav_order: 4
+---
+
 # LeetCode Problem-Solving Patterns
 
 ## Why Patterns Matter

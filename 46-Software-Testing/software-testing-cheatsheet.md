@@ -1,3 +1,10 @@
+---
+layout: default
+title: Software Testing Cheatsheet
+parent: Software Testing
+nav_order: 1
+---
+
 # Software Testing Cheat Sheet
 
 Quick reference for software testing: the testing pyramid, levels and

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Java Fundamentals Problems
+parent: Java Fundamentals
+nav_order: 3
+---
+
 # Java Fundamentals Problems
 
 ## Beginner Problems

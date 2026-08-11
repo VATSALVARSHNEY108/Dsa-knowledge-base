@@ -1,3 +1,10 @@
+---
+layout: default
+title: Searching Tutorial
+parent: Searching
+nav_order: 4
+---
+
 # Searching Algorithms Tutorial
 
 ## Introduction to Searching

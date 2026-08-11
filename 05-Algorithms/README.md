@@ -1,3 +1,10 @@
+---
+layout: default
+title: Algorithms
+has_children: true
+nav_order: 15
+---
+
 # Algorithms Section
 
 This directory contains learning materials for various algorithm design techniques and methodologies, essential for solving complex computational problems efficiently.

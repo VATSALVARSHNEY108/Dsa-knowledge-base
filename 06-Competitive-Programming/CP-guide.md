@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Guide
+parent: Competitive Programming
+nav_order: 6
+---
+
 # Competitive Programming Guide
 
 ## Introduction

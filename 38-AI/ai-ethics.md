@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Ethics
+parent: AI
+nav_order: 4
+---
+
 # AI Ethics and Responsible AI
 
 This document covers ethical considerations and responsible practices in artificial intelligence.

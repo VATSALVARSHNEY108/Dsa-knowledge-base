@@ -1,3 +1,10 @@
+---
+layout: default
+title: Networking Cheatsheet
+parent: Computer Networks
+nav_order: 1
+---
+
 # Networking Cheat Sheet
 
 ## Common Ports

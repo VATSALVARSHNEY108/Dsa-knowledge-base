@@ -1,3 +1,10 @@
+---
+layout: default
+title: System Design
+has_children: true
+nav_order: 21
+---
+
 # System Design
 
 System design is the process of defining architecture, components, modules, interfaces, and data for a system to satisfy specified requirements. It is a critical skill for senior engineers and a key topic in technical interviews.

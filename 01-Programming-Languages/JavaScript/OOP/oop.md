@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: JavaScript
+nav_order: 5
+---
+
 # Object-Oriented Programming in JavaScript
 
 ## Overview

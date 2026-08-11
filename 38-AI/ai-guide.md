@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Guide
+parent: AI
+nav_order: 5
+---
+
 # AI Complete Guide
 
 ## Table of Contents

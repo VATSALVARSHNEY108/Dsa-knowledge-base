@@ -1,3 +1,10 @@
+---
+layout: default
+title: Behavioral Patterns
+parent: Design Patterns
+nav_order: 1
+---
+
 # Behavioral Design Patterns
 
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects.

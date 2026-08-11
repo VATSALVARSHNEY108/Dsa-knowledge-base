@@ -1,3 +1,10 @@
+---
+layout: default
+title: GCP Services Overview
+parent: GCP
+nav_order: 5
+---
+
 # GCP Services Overview - Complete Reference Guide
 
 ## Table of Contents

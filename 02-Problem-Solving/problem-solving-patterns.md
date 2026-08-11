@@ -1,3 +1,10 @@
+---
+layout: default
+title: Problem Solving Patterns
+parent: Problem Solving
+nav_order: 7
+---
+
 # Problem Solving Patterns
 
 ## Master Patterns for Coding Interviews

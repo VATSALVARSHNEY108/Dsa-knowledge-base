@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git Github
+has_children: true
+nav_order: 33
+---
+
 # 23 - Git & GitHub
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: LLD Principles
+parent: Low Level Design
+nav_order: 4
+---
+
 # Low-Level Design — Core Principles
 
 ## SOLID Principles

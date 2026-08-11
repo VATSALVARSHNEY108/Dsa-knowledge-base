@@ -1,3 +1,10 @@
+---
+layout: default
+title: Azure Guide
+parent: Azure
+nav_order: 3
+---
+
 # Azure Complete Guide - From Zero to Cloud Architect
 
 ## Table of Contents

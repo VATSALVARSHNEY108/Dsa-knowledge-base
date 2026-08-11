@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cloud Interview Questions
+parent: Cloud Computing
+nav_order: 5
+---
+
 # Cloud Computing Interview Questions
 
 ## Fundamentals

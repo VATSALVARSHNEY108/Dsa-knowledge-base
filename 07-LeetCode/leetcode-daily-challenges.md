@@ -1,3 +1,10 @@
+---
+layout: default
+title: Leetcode Daily Challenges
+parent: Leetcode
+nav_order: 2
+---
+
 # LeetCode Daily Challenge Solutions
 
 This document provides solutions and explanations for selected LeetCode Daily Challenge problems, organized by topic.

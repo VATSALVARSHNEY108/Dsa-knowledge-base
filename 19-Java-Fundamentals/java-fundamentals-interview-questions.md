@@ -1,3 +1,10 @@
+---
+layout: default
+title: Java Fundamentals Interview Questions
+parent: Java Fundamentals
+nav_order: 2
+---
+
 # Java Fundamentals Interview Questions
 
 ## Top Interview Questions

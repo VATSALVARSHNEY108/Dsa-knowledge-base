@@ -1,3 +1,11 @@
+---
+layout: default
+title: Trees
+parent: Data Structures
+has_children: true
+nav_order: 6
+---
+
 # Trees Data Structure
 
 This directory contains comprehensive learning materials for tree data structures, including tutorials, practice problems, and reference guides.

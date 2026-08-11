@@ -1,3 +1,10 @@
+---
+layout: default
+title: Rust Introduction
+parent: Rust
+nav_order: 2
+---
+
 # Rust Introduction
 
 ## Why Learn Rust?

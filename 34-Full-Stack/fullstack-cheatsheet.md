@@ -1,3 +1,10 @@
+---
+layout: default
+title: Fullstack Cheatsheet
+parent: Full Stack
+nav_order: 1
+---
+
 # Full-Stack Cheat Sheet
 
 Quick reference for architecting and shipping full-stack applications:

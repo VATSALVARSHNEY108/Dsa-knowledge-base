@@ -1,3 +1,10 @@
+---
+layout: default
+title: Sorting Cheatsheet
+parent: Sorting
+nav_order: 1
+---
+
 # Sorting Algorithms Cheat Sheet
 
 ## Fundamental Concepts

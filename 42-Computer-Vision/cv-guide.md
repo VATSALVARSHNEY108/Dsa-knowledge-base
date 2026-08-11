@@ -1,3 +1,10 @@
+---
+layout: default
+title: CV Guide
+parent: Computer Vision
+nav_order: 3
+---
+
 # Computer Vision Complete Guide
 
 ## Table of Contents

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Getting Started Guide
+parent: Getting Started
+nav_order: 3
+---
+
 # Getting Started Guide
 
 A step-by-step guide to navigating this CS & Software Engineering Knowledge Base.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Operating System
+has_children: true
+nav_order: 28
+---
+
 # Operating System
 
 ## Overview

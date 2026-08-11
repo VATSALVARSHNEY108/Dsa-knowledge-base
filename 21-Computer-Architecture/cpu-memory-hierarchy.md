@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cpu Memory Hierarchy
+parent: Computer Architecture
+nav_order: 5
+---
+
 # CPU and Memory Hierarchy
 
 ## 1. CPU Architecture

@@ -1,3 +1,10 @@
+---
+layout: default
+title: CV Applications
+parent: Computer Vision
+nav_order: 2
+---
+
 # Computer Vision Applications
 
 ## Table of Contents

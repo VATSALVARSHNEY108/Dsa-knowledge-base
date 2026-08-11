@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codechef Rating System
+parent: Codechef
+nav_order: 5
+---
+
 # CodeChef Rating System
 
 ## Overview

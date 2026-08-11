@@ -1,3 +1,10 @@
+---
+layout: default
+title: Terraform
+has_children: true
+nav_order: 36
+---
+
 # Terraform
 
 This section covers Terraform, an Infrastructure as Code (IaC) tool for provisioning and managing cloud infrastructure.

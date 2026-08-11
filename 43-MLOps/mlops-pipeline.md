@@ -1,3 +1,10 @@
+---
+layout: default
+title: Mlops Pipeline
+parent: Mlops
+nav_order: 4
+---
+
 # MLOps Pipeline Design
 
 ## Overview

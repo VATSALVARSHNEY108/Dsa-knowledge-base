@@ -1,3 +1,10 @@
+---
+layout: default
+title: Recursion Problems
+parent: Recursion
+nav_order: 3
+---
+
 # Recursion Problems
 
 ## Problem List

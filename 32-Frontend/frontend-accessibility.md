@@ -1,3 +1,10 @@
+---
+layout: default
+title: Frontend Accessibility
+parent: Frontend
+nav_order: 1
+---
+
 # Frontend Accessibility
 
 This document covers web accessibility standards, techniques, and best practices.

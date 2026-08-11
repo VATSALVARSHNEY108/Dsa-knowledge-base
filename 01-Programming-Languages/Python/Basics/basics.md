@@ -1,3 +1,10 @@
+---
+layout: default
+title: Basics
+parent: Python
+nav_order: 2
+---
+
 # Python Basics
 
 ## Hello, World!

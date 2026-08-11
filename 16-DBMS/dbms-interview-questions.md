@@ -1,3 +1,10 @@
+---
+layout: default
+title: DBMS Interview Questions
+parent: DBMS
+nav_order: 4
+---
+
 # DBMS Interview Questions
 
 ## Basic Questions

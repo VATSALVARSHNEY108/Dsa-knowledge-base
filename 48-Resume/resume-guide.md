@@ -1,3 +1,10 @@
+---
+layout: default
+title: Resume Guide
+parent: Resume
+nav_order: 2
+---
+
 # Resume Writing: Complete Guide
 
 ## Table of Contents

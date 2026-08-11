@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Rust
+nav_order: 3
+---
+
 # Rust Syntax
 
 ## Overview

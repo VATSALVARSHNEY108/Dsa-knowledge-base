@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codeforces Cheatsheet
+parent: Codeforces
+nav_order: 1
+---
+
 # Codeforces Cheatsheet
 
 Quick reference for rating tiers, problem types, contest format,

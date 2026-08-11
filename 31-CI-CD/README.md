@@ -1,3 +1,10 @@
+---
+layout: default
+title: CI CD
+has_children: true
+nav_order: 41
+---
+
 # CI/CD - Continuous Integration & Continuous Deployment
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Terraform Guide
+parent: Terraform
+nav_order: 4
+---
+
 # Terraform Guide
 
 ## What is Terraform?

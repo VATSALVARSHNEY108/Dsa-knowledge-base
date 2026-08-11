@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blockchain Guide
+parent: Blockchain
+nav_order: 2
+---
+
 # Comprehensive Blockchain Guide
 
 ## Table of Contents

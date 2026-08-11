@@ -1,3 +1,10 @@
+---
+layout: default
+title: LLD Common Problems
+parent: Low Level Design
+nav_order: 2
+---
+
 # Low-Level Design — Common Interview Problems
 
 ## 1. Parking Lot System

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Learning Roadmap
+parent: Getting Started
+nav_order: 9
+---
+
 # 📚 Ultimate Computer Science Learning Roadmap
 
 > A comprehensive, step-by-step guide to mastering computer science and software engineering from beginner to expert level.

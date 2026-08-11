@@ -1,3 +1,10 @@
+---
+layout: default
+title: DP Problems
+parent: Dynamic-Programming
+nav_order: 3
+---
+
 # Dynamic Programming Tutorial
 
 ## Introduction

@@ -1,3 +1,11 @@
+---
+layout: default
+title: TypeScript
+parent: Programming Languages
+has_children: true
+nav_order: 15
+---
+
 # TypeScript Programming Language
 
 ## Overview

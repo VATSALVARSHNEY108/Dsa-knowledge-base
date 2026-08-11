@@ -1,3 +1,10 @@
+---
+layout: default
+title: Typescript Basics Tutorial
+parent: TypeScript
+nav_order: 3
+---
+
 # TypeScript Basics Tutorial
 
 ## Variables and Data Types

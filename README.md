@@ -128,7 +128,7 @@ See [00-Getting-Started/how-to-use.md](00-Getting-Started/how-to-use.md) for:
 
 This repository is published in two additional formats:
 
-- **[GitHub Pages website](https://shubhu-io.github.io/Dsa-knowledge-base/)** — A browsable card-based index of all 55 topics, with a dedicated [Programming Languages page](https://shubhu-io.github.io/Dsa-knowledge-base/languages.html) covering all 15 languages.
+- **[GitHub Pages website](https://shubhu-io.github.io/Dsa-knowledge-base/)** — A full documentation site built from this repository. Every folder and file renders as a searchable page with a navigable sidebar, covering all 55 topics and 15 programming languages.
 - **[Wiki](https://github.com/shubhu-io/Dsa-knowledge-base/wiki)** — A navigable wiki with learning paths, cross-referenced topic guides, and per-language pages (Python, Java, C++, JavaScript, Go, Rust, and more).
 
 Both are generated directly from the content in this repository and are kept in sync with `main`.

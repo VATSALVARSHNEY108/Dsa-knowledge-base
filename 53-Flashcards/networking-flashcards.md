@@ -1,3 +1,10 @@
+---
+layout: default
+title: Networking Flashcards
+parent: Flashcards
+nav_order: 4
+---
+
 # Networking Flashcards
 
 Q&A flashcards covering essential networking concepts for technical interviews.

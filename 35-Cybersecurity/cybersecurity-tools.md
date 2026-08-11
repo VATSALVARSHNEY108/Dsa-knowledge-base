@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cybersecurity Tools
+parent: Cybersecurity
+nav_order: 6
+---
+
 # Cybersecurity Tools
 
 ## Table of Contents

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Big Data Interview Questions
+parent: Big Data
+nav_order: 5
+---
+
 # Big Data Interview Questions
 
 ## Overview

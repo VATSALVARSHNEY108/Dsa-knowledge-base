@@ -1,3 +1,11 @@
+---
+layout: default
+title: Queue
+parent: Data Structures
+has_children: true
+nav_order: 4
+---
+
 # Queue
 
 ## Overview

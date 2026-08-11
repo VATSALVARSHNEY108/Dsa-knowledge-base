@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linked List Problems
+parent: LinkedList
+nav_order: 2
+---
+
 # Linked List Problems
 
 ## Easy Problems

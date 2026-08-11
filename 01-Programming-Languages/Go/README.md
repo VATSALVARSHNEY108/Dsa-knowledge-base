@@ -1,3 +1,11 @@
+---
+layout: default
+title: Go
+parent: Programming Languages
+has_children: true
+nav_order: 4
+---
+
 # Go Programming Language
 
 ## Overview

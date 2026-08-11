@@ -1,3 +1,10 @@
+---
+layout: default
+title: Open Source Benefits
+parent: Open Source
+nav_order: 3
+---
+
 # Benefits of Open Source
 
 Understanding why open source contribution is valuable for your career, skills, and community.

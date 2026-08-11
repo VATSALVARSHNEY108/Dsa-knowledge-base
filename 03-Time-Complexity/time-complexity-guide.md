@@ -1,3 +1,10 @@
+---
+layout: default
+title: Time Complexity Guide
+parent: Time Complexity
+nav_order: 5
+---
+
 # Time Complexity: A Complete Guide
 
 A thorough explanation of how to analyze and understand the time complexity of algorithms.

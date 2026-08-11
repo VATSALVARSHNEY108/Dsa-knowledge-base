@@ -1,3 +1,10 @@
+---
+layout: default
+title: Comprehensions
+parent: Python
+nav_order: 3
+---
+
 # List, Dict, and Set Comprehensions
 
 ## Overview

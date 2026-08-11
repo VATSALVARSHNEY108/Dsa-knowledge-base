@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hackerrank Cheatsheet
+parent: Hackerrank
+nav_order: 1
+---
+
 # HackerRank Cheatsheet
 
 Quick reference for domains, scoring, question formats, and prep.

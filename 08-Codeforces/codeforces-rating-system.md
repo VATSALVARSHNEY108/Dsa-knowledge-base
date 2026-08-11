@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codeforces Rating System
+parent: Codeforces
+nav_order: 4
+---
+
 # Codeforces Rating System
 
 ## Overview

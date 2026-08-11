@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: Python
+nav_order: 11
+---
+
 # Object-Oriented Programming in Python
 
 ## Overview

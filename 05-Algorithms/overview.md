@@ -1,3 +1,10 @@
+---
+layout: default
+title: Overview
+parent: Algorithms
+nav_order: 2
+---
+
 # Algorithms Overview
 
 ## What is an Algorithm?

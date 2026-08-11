@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cloud Architecture Patterns
+parent: Cloud Computing
+nav_order: 1
+---
+
 # Cloud Architecture Patterns
 
 ## Overview

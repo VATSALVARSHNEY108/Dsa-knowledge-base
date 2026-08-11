@@ -1,3 +1,10 @@
+---
+layout: default
+title: Automation Testing Cheatsheet
+parent: Automation Testing
+nav_order: 5
+---
+
 # Automation Testing Cheat Sheet
 
 Quick reference for test automation: what to automate, framework types,

@@ -1,3 +1,10 @@
+---
+layout: default
+title: DBMS Guide
+parent: DBMS
+nav_order: 2
+---
+
 # DBMS Guide — Fundamentals
 
 ## 1. What is a DBMS?

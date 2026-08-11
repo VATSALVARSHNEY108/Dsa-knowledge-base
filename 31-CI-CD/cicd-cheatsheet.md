@@ -1,3 +1,10 @@
+---
+layout: default
+title: CI/CD Cheatsheet
+parent: CI CD
+nav_order: 2
+---
+
 # CI/CD Cheatsheet
 
 Quick reference for Continuous Integration and Continuous Delivery/Deployment.

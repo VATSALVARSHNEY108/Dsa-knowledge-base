@@ -1,3 +1,11 @@
+---
+layout: default
+title: Python
+parent: Programming Languages
+has_children: true
+nav_order: 9
+---
+
 # Python Programming
 
 Comprehensive Python guide covering fundamentals, data structures, algorithms,

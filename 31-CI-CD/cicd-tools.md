@@ -1,3 +1,10 @@
+---
+layout: default
+title: CI/CD Tools
+parent: CI CD
+nav_order: 6
+---
+
 # CI/CD Tools - Comparisons & Recommendations
 
 ## Table of Contents

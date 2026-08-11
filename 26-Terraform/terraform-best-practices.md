@@ -1,3 +1,10 @@
+---
+layout: default
+title: Terraform Best Practices
+parent: Terraform
+nav_order: 1
+---
+
 # Terraform Best Practices
 
 ## Project Structure

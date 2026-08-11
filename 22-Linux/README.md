@@ -1,3 +1,10 @@
+---
+layout: default
+title: Linux
+has_children: true
+nav_order: 32
+---
+
 # 22 - Linux
 
 ## Overview

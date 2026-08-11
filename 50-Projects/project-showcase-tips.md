@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Showcase Tips
+parent: Projects
+nav_order: 4
+---
+
 # Project Showcase Tips
 
 How to effectively present your DSA projects to impress interviewers and build your professional brand.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Mlops Guide
+parent: Mlops
+nav_order: 3
+---
+
 # MLOps Comprehensive Guide
 
 ## Table of Contents

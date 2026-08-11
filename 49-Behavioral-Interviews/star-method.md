@@ -1,3 +1,10 @@
+---
+layout: default
+title: Star Method
+parent: Behavioral Interviews
+nav_order: 6
+---
+
 # The STAR Method: Deep Dive
 
 ## Table of Contents

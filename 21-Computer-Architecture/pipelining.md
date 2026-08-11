@@ -1,3 +1,10 @@
+---
+layout: default
+title: Pipelining
+parent: Computer Architecture
+nav_order: 6
+---
+
 # Instruction Pipelining
 
 ## 1. What is Pipelining?

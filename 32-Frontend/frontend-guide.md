@@ -1,3 +1,10 @@
+---
+layout: default
+title: Frontend Guide
+parent: Frontend
+nav_order: 4
+---
+
 # Frontend Development Complete Guide
 
 ## Table of Contents

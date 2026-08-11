@@ -1,3 +1,10 @@
+---
+layout: default
+title: Javascript Cheatsheet
+parent: Cheat Sheets
+nav_order: 2
+---
+
 # JavaScript Cheat Sheet for DSA
 
 Quick reference for JavaScript ES6+ data structures, algorithms, and common patterns.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Classes
+parent: Ruby
+nav_order: 5
+---
+
 # Ruby Classes Example
 
 ## Shape Hierarchy

@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP
+parent: Kotlin
+nav_order: 5
+---
+
 # Kotlin Object-Oriented Programming
 
 ## Overview

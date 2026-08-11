@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blockchain Smart Contracts
+parent: Blockchain
+nav_order: 4
+---
+
 # Smart Contract Development
 
 ## Table of Contents

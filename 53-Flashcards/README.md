@@ -1,3 +1,10 @@
+---
+layout: default
+title: Flashcards
+has_children: true
+nav_order: 63
+---
+
 # DSA Flashcards
 
 Interactive Q&A flashcards for mastering data structures, algorithms, system design, and networking concepts.

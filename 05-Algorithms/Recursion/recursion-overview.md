@@ -1,3 +1,10 @@
+---
+layout: default
+title: Recursion Overview
+parent: Recursion
+nav_order: 2
+---
+
 # Recursion Overview
 
 ## What is Recursion?

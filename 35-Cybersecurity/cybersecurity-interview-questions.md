@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cybersecurity Interview Questions
+parent: Cybersecurity
+nav_order: 3
+---
+
 # Cybersecurity Interview Questions
 
 ## Table of Contents

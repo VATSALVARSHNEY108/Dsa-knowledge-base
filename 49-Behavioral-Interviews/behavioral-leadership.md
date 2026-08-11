@@ -1,3 +1,10 @@
+---
+layout: default
+title: Behavioral Leadership
+parent: Behavioral Interviews
+nav_order: 3
+---
+
 # Leadership and Team Management Behavioral Questions
 
 This document covers behavioral questions related to leadership, team management, and influencing without authority.

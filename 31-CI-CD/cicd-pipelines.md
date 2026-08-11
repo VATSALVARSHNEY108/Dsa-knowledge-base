@@ -1,3 +1,10 @@
+---
+layout: default
+title: CI/CD Pipelines
+parent: CI CD
+nav_order: 5
+---
+
 # CI/CD Pipelines - Design Patterns & Implementation
 
 ## Table of Contents

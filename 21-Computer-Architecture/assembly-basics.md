@@ -1,3 +1,10 @@
+---
+layout: default
+title: Assembly Basics
+parent: Computer Architecture
+nav_order: 3
+---
+
 # Assembly Language Basics
 
 This document introduces assembly language concepts, focusing on x86-64 architecture.

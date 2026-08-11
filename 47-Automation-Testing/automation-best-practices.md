@@ -1,3 +1,10 @@
+---
+layout: default
+title: Automation Best Practices
+parent: Automation Testing
+nav_order: 1
+---
+
 # Automation Best Practices
 
 ## Table of Contents

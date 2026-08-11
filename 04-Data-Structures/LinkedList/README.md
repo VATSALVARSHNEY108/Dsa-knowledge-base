@@ -1,3 +1,11 @@
+---
+layout: default
+title: LinkedList
+parent: Data Structures
+has_children: true
+nav_order: 3
+---
+
 # Linked List Data Structure
 
 This directory contains learning materials for linked lists, a fundamental linear data structure where elements are not stored in contiguous memory locations but are linked using pointers.

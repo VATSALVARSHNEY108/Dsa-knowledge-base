@@ -1,3 +1,10 @@
+---
+layout: default
+title: Backend Security
+parent: Backend
+nav_order: 6
+---
+
 # Backend Security Best Practices
 
 This document covers essential security practices for backend development.

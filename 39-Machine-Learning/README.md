@@ -1,3 +1,10 @@
+---
+layout: default
+title: Machine Learning
+has_children: true
+nav_order: 49
+---
+
 # Advanced Machine Learning
 
 ## Overview

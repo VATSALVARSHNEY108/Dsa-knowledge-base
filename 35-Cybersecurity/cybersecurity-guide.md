@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cybersecurity Guide
+parent: Cybersecurity
+nav_order: 2
+---
+
 # Comprehensive Cybersecurity Guide
 
 ## Table of Contents

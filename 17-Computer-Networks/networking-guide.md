@@ -1,3 +1,10 @@
+---
+layout: default
+title: Networking Guide
+parent: Computer Networks
+nav_order: 2
+---
+
 # Computer Networks Guide
 
 ## OSI Model

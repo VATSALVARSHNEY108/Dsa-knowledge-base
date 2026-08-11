@@ -1,3 +1,10 @@
+---
+layout: default
+title: Devops Interview Questions
+parent: Devops
+nav_order: 3
+---
+
 # DevOps Interview Questions - Comprehensive Guide
 
 ## Table of Contents

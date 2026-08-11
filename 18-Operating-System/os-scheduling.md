@@ -1,3 +1,10 @@
+---
+layout: default
+title: OS Scheduling
+parent: Operating System
+nav_order: 6
+---
+
 # CPU Scheduling Algorithms
 
 ## Overview

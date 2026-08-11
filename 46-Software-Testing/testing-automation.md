@@ -1,3 +1,10 @@
+---
+layout: default
+title: Testing Automation
+parent: Software Testing
+nav_order: 2
+---
+
 # Test Automation Guide
 
 This document covers test automation strategies, tools, and best practices.

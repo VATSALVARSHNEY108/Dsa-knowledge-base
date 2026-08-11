@@ -1,3 +1,10 @@
+---
+layout: default
+title: Software Testing
+has_children: true
+nav_order: 56
+---
+
 # Software Testing
 
 A comprehensive guide to software testing methodologies, best practices, and interview preparation.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tree Cheatsheet
+parent: Trees
+nav_order: 2
+---
+
 # Tree Cheat Sheet
 
 ## Core Concepts

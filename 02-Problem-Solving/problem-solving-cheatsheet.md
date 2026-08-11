@@ -1,3 +1,10 @@
+---
+layout: default
+title: Problem Solving Cheatsheet
+parent: Problem Solving
+nav_order: 4
+---
+
 # Problem Solving Cheatsheet
 
 Quick reference for the problem-solving process, patterns,

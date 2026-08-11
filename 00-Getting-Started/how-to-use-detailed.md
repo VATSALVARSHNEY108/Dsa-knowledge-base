@@ -1,3 +1,10 @@
+---
+layout: default
+title: How to Use Detailed
+parent: Getting Started
+nav_order: 5
+---
+
 # 📖 How to Use This Repository
 
 > Your comprehensive guide to navigating and maximizing the learning potential of the Complete Computer Science Roadmap repository.

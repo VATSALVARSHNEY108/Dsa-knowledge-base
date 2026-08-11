@@ -1,3 +1,11 @@
+---
+layout: default
+title: Recursion
+parent: Algorithms
+has_children: true
+nav_order: 4
+---
+
 # Recursion
 
 ## Overview

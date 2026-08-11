@@ -1,3 +1,10 @@
+---
+layout: default
+title: LLD Cheatsheet
+parent: Low Level Design
+nav_order: 1
+---
+
 # Low-Level Design Cheat Sheet
 
 Quick reference for object-oriented design interviews: SOLID, class

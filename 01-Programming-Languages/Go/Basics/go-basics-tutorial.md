@@ -1,3 +1,10 @@
+---
+layout: default
+title: GO Basics Tutorial
+parent: Go
+nav_order: 2
+---
+
 # Go Basics Tutorial
 
 ## Variables and Constants

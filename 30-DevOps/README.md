@@ -1,3 +1,10 @@
+---
+layout: default
+title: Devops
+has_children: true
+nav_order: 40
+---
+
 # DevOps - Culture, Practices & Tools
 
 ## Overview

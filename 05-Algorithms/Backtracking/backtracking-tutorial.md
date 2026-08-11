@@ -1,3 +1,10 @@
+---
+layout: default
+title: Backtracking Tutorial
+parent: Backtracking
+nav_order: 4
+---
+
 # Backtracking Tutorial
 
 ## Introduction

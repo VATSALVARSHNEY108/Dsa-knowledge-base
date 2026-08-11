@@ -1,3 +1,10 @@
+---
+layout: default
+title: Common Questions
+parent: Behavioral Interviews
+nav_order: 5
+---
+
 # Common Behavioral Interview Questions
 
 ## Table of Contents

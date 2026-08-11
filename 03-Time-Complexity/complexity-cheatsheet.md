@@ -1,3 +1,10 @@
+---
+layout: default
+title: Complexity Cheatsheet
+parent: Time Complexity
+nav_order: 2
+---
+
 # Complexity Cheatsheet
 
 Quick reference for time and space complexities of common algorithms and data structures.

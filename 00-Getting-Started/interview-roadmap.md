@@ -1,3 +1,10 @@
+---
+layout: default
+title: Interview Roadmap
+parent: Getting Started
+nav_order: 8
+---
+
 # 🎯 Interview Preparation Roadmap
 
 > A targeted, step-by-step guide to acing technical interviews at top tech companies (FAANG, unicorns, and other selective employers).

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Automation Guide
+parent: Automation Testing
+nav_order: 3
+---
+
 # Test Automation: Complete Guide
 
 ## Table of Contents

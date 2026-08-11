@@ -1,3 +1,10 @@
+---
+layout: default
+title: System Design Patterns
+parent: System Design
+nav_order: 8
+---
+
 # System Design Patterns
 
 ## Architectural Patterns

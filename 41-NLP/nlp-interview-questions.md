@@ -1,3 +1,10 @@
+---
+layout: default
+title: NLP Interview Questions
+parent: NLP
+nav_order: 4
+---
+
 # NLP Interview Questions
 
 ## Table of Contents

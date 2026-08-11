@@ -1,3 +1,10 @@
+---
+layout: default
+title: ML Model Selection
+parent: Machine Learning
+nav_order: 5
+---
+
 # Model Selection Guide
 
 ## Table of Contents

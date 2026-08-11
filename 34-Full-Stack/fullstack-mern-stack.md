@@ -1,3 +1,10 @@
+---
+layout: default
+title: Fullstack Mern Stack
+parent: Full Stack
+nav_order: 4
+---
+
 # MERN Stack Development Guide
 
 This document covers building full-stack applications with MongoDB, Express.js, React, and Node.js.

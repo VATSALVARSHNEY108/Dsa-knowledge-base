@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: PHP
+nav_order: 3
+---
+
 # PHP Syntax
 
 ## Overview

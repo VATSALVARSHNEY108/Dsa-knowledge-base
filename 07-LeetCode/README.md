@@ -1,3 +1,10 @@
+---
+layout: default
+title: Leetcode
+has_children: true
+nav_order: 17
+---
+
 # 07 - LeetCode
 
 ## Overview

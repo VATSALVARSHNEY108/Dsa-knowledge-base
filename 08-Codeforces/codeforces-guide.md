@@ -1,3 +1,10 @@
+---
+layout: default
+title: Codeforces Guide
+parent: Codeforces
+nav_order: 2
+---
+
 # Codeforces Complete Guide
 
 ## Getting Started

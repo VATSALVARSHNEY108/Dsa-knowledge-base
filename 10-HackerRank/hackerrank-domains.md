@@ -1,3 +1,10 @@
+---
+layout: default
+title: Hackerrank Domains
+parent: Hackerrank
+nav_order: 2
+---
+
 # HackerRank Domains
 
 ## Overview

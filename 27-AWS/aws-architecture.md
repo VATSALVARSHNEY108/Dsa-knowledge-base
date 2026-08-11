@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS Architecture
+parent: AWS
+nav_order: 1
+---
+
 # AWS Architecture - Well-Architected Framework & Patterns
 
 ## Table of Contents

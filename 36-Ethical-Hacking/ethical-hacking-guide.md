@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Hacking Guide
+parent: Ethical Hacking
+nav_order: 3
+---
+
 # Ethical Hacking Comprehensive Guide
 
 ## Table of Contents

@@ -1,3 +1,11 @@
+---
+layout: default
+title: C++
+parent: Programming Languages
+has_children: true
+nav_order: 2
+---
+
 # C++ Programming Language
 
 ## Overview

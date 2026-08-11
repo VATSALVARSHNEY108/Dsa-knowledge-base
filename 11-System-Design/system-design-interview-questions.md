@@ -1,3 +1,10 @@
+---
+layout: default
+title: System Design Interview Questions
+parent: System Design
+nav_order: 7
+---
+
 # System Design Interview Questions
 
 Common system design interview problems with structured solutions.

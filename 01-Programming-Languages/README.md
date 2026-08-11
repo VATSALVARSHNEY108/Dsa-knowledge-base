@@ -1,3 +1,10 @@
+---
+layout: default
+title: Programming Languages
+has_children: true
+nav_order: 11
+---
+
 # Programming Languages
 
 This section contains comprehensive guides and tutorials for various programming languages used in software development and interviews.

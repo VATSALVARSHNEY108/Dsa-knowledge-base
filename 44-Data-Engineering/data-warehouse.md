@@ -1,3 +1,10 @@
+---
+layout: default
+title: Data Warehouse
+parent: Data Engineering
+nav_order: 6
+---
+
 # Data Warehouse Architecture and Modeling
 
 ## Overview

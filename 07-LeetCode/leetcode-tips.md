@@ -1,3 +1,10 @@
+---
+layout: default
+title: Leetcode Tips
+parent: Leetcode
+nav_order: 5
+---
+
 # LeetCode Tips & Strategies
 
 ## Daily Practice Habits

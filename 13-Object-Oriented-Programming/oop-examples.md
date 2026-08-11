@@ -1,3 +1,10 @@
+---
+layout: default
+title: OOP Examples
+parent: Object Oriented Programming
+nav_order: 2
+---
+
 # Object-Oriented Programming — Real-World Examples
 
 ## Example 1: E-Commerce Product System

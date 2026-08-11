@@ -1,3 +1,10 @@
+---
+layout: default
+title: Git Commands
+parent: Git Github
+nav_order: 3
+---
+
 # Git Commands Reference
 
 ## 1. Setup and Configuration

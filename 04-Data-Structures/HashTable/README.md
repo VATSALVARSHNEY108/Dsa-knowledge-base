@@ -1,3 +1,11 @@
+---
+layout: default
+title: HashTable
+parent: Data Structures
+has_children: true
+nav_order: 2
+---
+
 # Hash Table Data Structure
 
 This directory contains learning materials for hash tables (hash maps), a fundamental data structure that implements an associative array abstract data type, a structure that can map keys to values.

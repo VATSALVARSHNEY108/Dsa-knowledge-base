@@ -1,3 +1,11 @@
+---
+layout: default
+title: Kotlin
+parent: Programming Languages
+has_children: true
+nav_order: 7
+---
+
 # Kotlin
 
 ## Overview

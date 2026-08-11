@@ -1,3 +1,10 @@
+---
+layout: default
+title: Index
+parent: Getting Started
+nav_order: 7
+---
+
 # 📚 Getting Started Guide Index
 
 Welcome to the Getting Started section of the Complete Computer Science Roadmap. This section contains all the foundational materials you need to begin your learning journey.

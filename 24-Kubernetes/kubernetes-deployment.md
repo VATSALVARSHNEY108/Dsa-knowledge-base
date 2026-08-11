@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kubernetes Deployment
+parent: Kubernetes
+nav_order: 4
+---
+
 # Kubernetes Deployments
 
 ## Overview

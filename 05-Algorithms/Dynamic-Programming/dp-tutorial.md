@@ -1,3 +1,10 @@
+---
+layout: default
+title: DP Tutorial
+parent: Dynamic-Programming
+nav_order: 4
+---
+
 # Dynamic Programming Tutorial
 
 ## Introduction to Dynamic Programming

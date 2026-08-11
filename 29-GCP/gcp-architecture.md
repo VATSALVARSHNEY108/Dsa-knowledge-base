@@ -1,3 +1,10 @@
+---
+layout: default
+title: GCP Architecture
+parent: GCP
+nav_order: 1
+---
+
 # GCP Architecture - Well-Architected Framework & Patterns
 
 ## Table of Contents

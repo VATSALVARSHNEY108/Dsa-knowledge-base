@@ -1,3 +1,10 @@
+---
+layout: default
+title: Rust Basics Tutorial
+parent: Rust
+nav_order: 2
+---
+
 # Rust Basics Tutorial
 
 ## Variables and Constants

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Azure Architecture
+parent: Azure
+nav_order: 1
+---
+
 # Azure Architecture - Well-Architected Framework & Patterns
 
 ## Table of Contents

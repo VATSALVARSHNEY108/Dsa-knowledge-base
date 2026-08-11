@@ -1,3 +1,10 @@
+---
+layout: default
+title: GCP Cheatsheet
+parent: GCP
+nav_order: 2
+---
+
 # GCP Cheatsheet
 
 Quick reference for Google Cloud Platform services, projects, and architecture.

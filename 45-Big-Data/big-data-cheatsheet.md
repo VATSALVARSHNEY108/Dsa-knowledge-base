@@ -1,3 +1,10 @@
+---
+layout: default
+title: Big Data Cheatsheet
+parent: Big Data
+nav_order: 1
+---
+
 # Big Data Cheat Sheet
 
 Quick reference for big data: the 5 Vs, Hadoop ecosystem, batch vs stream

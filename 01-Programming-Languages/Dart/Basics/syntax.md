@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Dart
+nav_order: 3
+---
+
 # Dart Syntax
 
 ## Overview

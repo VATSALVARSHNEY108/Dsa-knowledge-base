@@ -1,3 +1,10 @@
+---
+layout: default
+title: NLP Guide
+parent: NLP
+nav_order: 3
+---
+
 # NLP Complete Guide
 
 ## Table of Contents

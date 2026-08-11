@@ -1,3 +1,10 @@
+---
+layout: default
+title: CV Interview Questions
+parent: Computer Vision
+nav_order: 4
+---
+
 # Computer Vision Interview Questions
 
 ## Table of Contents

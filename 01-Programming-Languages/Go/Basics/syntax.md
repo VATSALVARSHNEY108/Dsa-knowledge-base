@@ -1,3 +1,10 @@
+---
+layout: default
+title: Syntax
+parent: Go
+nav_order: 3
+---
+
 # Go Syntax
 
 ## Overview

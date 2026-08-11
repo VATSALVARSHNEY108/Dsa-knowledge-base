@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kubernetes Guide
+parent: Kubernetes
+nav_order: 5
+---
+
 # Kubernetes Guide
 
 ## What is Kubernetes?

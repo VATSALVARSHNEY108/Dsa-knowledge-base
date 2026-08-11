@@ -1,3 +1,10 @@
+---
+layout: default
+title: Swift Basics Tutorial
+parent: Swift
+nav_order: 2
+---
+
 # Swift Basics Tutorial
 
 ## Variables and Constants

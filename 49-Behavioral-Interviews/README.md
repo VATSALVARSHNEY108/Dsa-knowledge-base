@@ -1,3 +1,10 @@
+---
+layout: default
+title: Behavioral Interviews
+has_children: true
+nav_order: 59
+---
+
 # Behavioral Interviews
 
 A comprehensive guide to mastering behavioral interviews using proven techniques and strategies.

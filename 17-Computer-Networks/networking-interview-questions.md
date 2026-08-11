@@ -1,3 +1,10 @@
+---
+layout: default
+title: Networking Interview Questions
+parent: Computer Networks
+nav_order: 3
+---
+
 # Computer Networks Interview Questions
 
 ## Top Interview Questions

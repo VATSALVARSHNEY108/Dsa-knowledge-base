@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blockchain Technology
+parent: Blockchain
+nav_order: 5
+---
+
 # Blockchain Technology Deep Dive
 
 ## Table of Contents

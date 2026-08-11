@@ -1,3 +1,10 @@
+---
+layout: default
+title: Mlops Best Practices
+parent: Mlops
+nav_order: 1
+---
+
 # MLOps Best Practices
 
 ## Overview

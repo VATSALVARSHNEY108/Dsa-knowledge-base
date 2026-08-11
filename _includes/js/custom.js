@@ -31,3 +31,13 @@ jtd.onReady(function () {
     renderIcon(next);
   });
 });
+
+// Rewrite relative .md links to .html so cross-page links work on the built site.
+jtd.onReady(function () {
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (/^(https?:|mailto:|tel:|#|\/)/i.test(href)) return;
+    if (href.indexOf('.md') === -1) return;
+    a.setAttribute('href', href.replace(/\.md(?=#|$)/i, '.html'));
+  });
+});

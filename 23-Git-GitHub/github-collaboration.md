@@ -1,3 +1,10 @@
+---
+layout: default
+title: Github Collaboration
+parent: Git Github
+nav_order: 6
+---
+
 # GitHub Collaboration Guide
 
 ## 1. GitHub Overview

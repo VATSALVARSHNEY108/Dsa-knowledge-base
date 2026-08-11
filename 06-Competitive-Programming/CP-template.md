@@ -1,3 +1,10 @@
+---
+layout: default
+title: CP Template
+parent: Competitive Programming
+nav_order: 10
+---
+
 # Competitive Programming Template
 
 ## Standard C++ Template for Competitive Programming

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Hacking Methodology
+parent: Ethical Hacking
+nav_order: 4
+---
+
 # Ethical Hacking Methodology
 
 ## Table of Contents

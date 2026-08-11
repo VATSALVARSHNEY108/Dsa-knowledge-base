@@ -1,3 +1,10 @@
+---
+layout: default
+title: Mlops Cheatsheet
+parent: Mlops
+nav_order: 2
+---
+
 # MLOps Cheatsheet
 
 Quick reference for Machine Learning operations: lifecycle,
