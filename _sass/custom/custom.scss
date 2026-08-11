@@ -1,224 +1,866 @@
-// Custom styles for the Complete CS & Software Engineering Knowledge Base.
-// Uses just-the-docs SCSS variables so it adapts automatically to light/dark.
+// ================================================================
+// Design system overrides for the CS & Software Engineering KB.
+//
+// Both scheme builds (light + dark) compile this file, so all colors
+// are CSS custom properties keyed on html[data-theme] (set in
+// head_custom.html / custom.js) and always target the exact theme
+// selectors here to beat the theme's default styles.
+// ================================================================
 
 // ---------------------------------------------------------------
-// Global polish
+// 1. Design tokens
+// ---------------------------------------------------------------
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --jtd-bg: #0d1117;
+  --jtd-bg-subtle: #161b22;
+  --jtd-bg-subtle-2: #1c2128;
+
+  --jtd-border: #30363d;
+  --jtd-border-strong: #484f58;
+
+  --jtd-text: #e6edf3;
+  --jtd-text-muted: #8b949e;
+  --jtd-text-faint: #6e7681;
+  --jtd-heading: #f0f6fc;
+
+  --jtd-accent: #2f81f7;
+  --jtd-accent-hover: #58a6ff;
+  --jtd-accent-soft: rgba(47, 129, 247, 0.12);
+  --jtd-link: #58a6ff;
+  --jtd-btn-primary: #2f81f7;
+  --jtd-btn-primary-hover: #1f6feb;
+  --jtd-btn-primary-text: #ffffff;
+
+  --jtd-code-bg: #010409;
+  --jtd-code-text: #e6edf3;
+  --jtd-code-header: #161b22;
+  --jtd-table-alt: rgba(255, 255, 255, 0.02);
+  --jtd-table-head-bg: #161b22;
+
+  --jtd-shadow: 0 8px 24px rgba(1, 4, 9, 0.45);
+  --jtd-header-bg: rgba(13, 17, 23, 0.82);
+  --jtd-scrollbar-thumb: #484f58;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+
+  --jtd-bg: #ffffff;
+  --jtd-bg-subtle: #f6f8fa;
+  --jtd-bg-subtle-2: #eef1f4;
+
+  --jtd-border: #d0d7de;
+  --jtd-border-strong: #afb8c1;
+
+  --jtd-text: #1f2328;
+  --jtd-text-muted: #57606a;
+  --jtd-text-faint: #6e7781;
+  --jtd-heading: #0d1117;
+
+  --jtd-accent: #0969da;
+  --jtd-accent-hover: #0550ae;
+  --jtd-accent-soft: rgba(9, 105, 218, 0.1);
+  --jtd-link: #0969da;
+  --jtd-btn-primary: #0969da;
+  --jtd-btn-primary-hover: #0550ae;
+  --jtd-btn-primary-text: #ffffff;
+
+  --jtd-code-bg: #f6f8fa;
+  --jtd-code-text: #1f2328;
+  --jtd-code-header: #eaeef2;
+  --jtd-table-alt: rgba(0, 0, 0, 0.02);
+  --jtd-table-head-bg: #f6f8fa;
+
+  --jtd-shadow: 0 4px 16px rgba(31, 35, 40, 0.1);
+  --jtd-header-bg: rgba(255, 255, 255, 0.82);
+  --jtd-scrollbar-thumb: #c1c9d1;
+}
+
+:root {
+  --jtd-radius: 10px;
+  --jtd-radius-sm: 8px;
+  --jtd-transition: 200ms ease;
+  --jtd-header-height: 3.75rem;
+}
+
+// ---------------------------------------------------------------
+// 2. Base
+// ---------------------------------------------------------------
+html {
+  background-color: var(--jtd-bg);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--jtd-bg);
+  color: var(--jtd-text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--jtd-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection {
+  background-color: var(--jtd-accent);
+  color: var(--jtd-btn-primary-text);
+}
+
+// ---------------------------------------------------------------
+// 3. Layout: two-column shell, centered 1200px content
+// ---------------------------------------------------------------
+.side-bar {
+  background-color: var(--jtd-bg-subtle);
+  border-right: 1px solid var(--jtd-border);
+
+  @include mq(lg) {
+    width: $nav-width;
+  }
+}
+
+// Keep the content column centered in the space right of the sidebar
+// (same formula the theme uses, but with a fixed-width sidebar).
+.side-bar + .main {
+  @include mq(lg) {
+    margin-left: Max(
+      $nav-width,
+      calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
+    );
+  }
+}
+
+.main-content-wrap {
+  @include mq(lg) {
+    max-width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// Scrollbars
+.side-bar,
+.main-content {
+  scrollbar-color: var(--jtd-scrollbar-thumb) transparent;
+}
+
+// ---------------------------------------------------------------
+// 4. Sticky main header (search + aux nav)
+// ---------------------------------------------------------------
+.main-header,
+.side-bar + .main .main-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--jtd-header-bg);
+  -webkit-backdrop-filter: saturate(1.5) blur(12px);
+  backdrop-filter: saturate(1.5) blur(12px);
+  border-bottom: 1px solid var(--jtd-border);
+}
+
+// ---------------------------------------------------------------
+// 5. Sidebar header (brand block) + menu button
 // ---------------------------------------------------------------
 .site-header {
-  border-bottom: 1px solid $border-color;
+  background-color: transparent;
+  border-bottom: 1px solid var(--jtd-border);
+  height: auto;
+  max-height: none;
+  align-items: flex-start;
+}
+
+.site-title {
+  display: block;
+  height: auto;
+  padding: 0;
+  font-size: 1rem !important;
+  line-height: 1.35;
+  white-space: normal;
+  color: var(--jtd-heading);
+}
+
+.brand {
+  display: block;
+}
+
+.brand-line {
+  display: block;
+}
+
+.brand-line-1 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--jtd-accent);
+}
+
+.brand-line-2 {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--jtd-heading);
+}
+
+.brand-line-3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--jtd-text-muted);
+}
+
+.brand-tagline {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: var(--jtd-text-faint);
+}
+
+#menu-button {
+  color: var(--jtd-text-muted);
+}
+
+#menu-button:hover {
+  color: var(--jtd-accent);
+}
+
+// ---------------------------------------------------------------
+// 6. Navigation
+// ---------------------------------------------------------------
+.nav-list-link {
+  color: var(--jtd-text-muted);
+  border-radius: 6px;
+  transition: background-color var(--jtd-transition),
+    color var(--jtd-transition);
+}
+
+.nav-list-link:hover {
+  background-color: var(--jtd-bg-subtle-2);
+  color: var(--jtd-heading);
+}
+
+// Parent (category) items
+.nav-list > .nav-list-item > .nav-list-link {
+  font-weight: 600;
+  color: var(--jtd-heading);
+}
+
+// Nested child items
+.nav-list .nav-list .nav-list-link {
+  font-size: 0.8rem;
+  padding-left: 1.5rem;
+}
+
+// Active page / section
+.nav-list-item.active > .nav-list-link {
+  color: var(--jtd-accent);
+  background-color: var(--jtd-accent-soft);
+  font-weight: 600;
+}
+
+.nav-list-item.active > .nav-list-link:hover {
+  color: var(--jtd-accent-hover);
+}
+
+// Sidebar footer (nav_footer_custom)
+.side-bar .site-footer {
+  justify-content: flex-start;
+  padding: 0.75rem 1rem 1.5rem;
+  color: var(--jtd-text-faint);
+}
+
+.side-bar .site-footer a {
+  color: var(--jtd-text-muted);
+}
+
+.side-bar .site-footer a:hover {
+  color: var(--jtd-accent);
+  text-decoration: none;
+}
+
+// ---------------------------------------------------------------
+// 7. Search
+// ---------------------------------------------------------------
+.search-input-wrap {
+  background-color: var(--jtd-bg-subtle-2);
+  border: 1px solid var(--jtd-border);
+  border-radius: var(--jtd-radius-sm);
+  transition: border-color var(--jtd-transition),
+    box-shadow var(--jtd-transition);
+}
+
+.search-input-wrap:hover {
+  border-color: var(--jtd-border-strong);
+}
+
+.search-input-wrap.search-active {
+  border-color: var(--jtd-accent);
+  box-shadow: 0 0 0 3px var(--jtd-accent-soft);
+}
+
+.search-input {
+  color: var(--jtd-text);
+}
+
+.search-input::-webkit-input-placeholder {
+  color: var(--jtd-text-faint);
+}
+
+.search-input:-ms-input-placeholder {
+  color: var(--jtd-text-faint);
+}
+
+.search-label .search-icon {
+  fill: var(--jtd-text-faint);
+}
+
+.search-results {
+  background-color: var(--jtd-bg-subtle);
+  border: 1px solid var(--jtd-border);
+  border-radius: var(--jtd-radius);
+  box-shadow: var(--jtd-shadow);
+}
+
+.search-result {
+  padding: 0.75rem 1rem;
+}
+
+.search-result:hover,
+.search-result.active {
+  background-color: var(--jtd-bg-subtle-2);
+}
+
+.search-result-title {
+  color: var(--jtd-heading);
+}
+
+.search-result-doc,
+.search-result-rel-url {
+  color: var(--jtd-text-faint);
+}
+
+// ---------------------------------------------------------------
+// 8. Aux nav + theme toggle
+// ---------------------------------------------------------------
+.aux-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.aux-nav-list-item a {
+  color: var(--jtd-text-muted);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--jtd-border);
+  border-radius: 999px;
+  transition: color var(--jtd-transition),
+    border-color var(--jtd-transition), background-color var(--jtd-transition);
+}
+
+.aux-nav-list-item a:hover {
+  color: var(--jtd-accent);
+  border-color: var(--jtd-accent);
+  background-color: var(--jtd-accent-soft);
+  text-decoration: none;
+}
+
+#theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid var(--jtd-border);
+  background-color: transparent;
+  color: var(--jtd-text-muted);
+  cursor: pointer;
+  transition: color var(--jtd-transition),
+    border-color var(--jtd-transition), background-color var(--jtd-transition);
+}
+
+#theme-toggle:hover {
+  color: var(--jtd-accent);
+  border-color: var(--jtd-accent);
+  background-color: var(--jtd-accent-soft);
+}
+
+// ---------------------------------------------------------------
+// 9. Buttons
+// ---------------------------------------------------------------
+.btn {
+  border-radius: var(--jtd-radius-sm);
+  font-weight: 600;
+  border: 1px solid var(--jtd-border);
+  background-color: var(--jtd-bg-subtle-2);
+  color: var(--jtd-text);
+  transition: all var(--jtd-transition);
+}
+
+.btn:hover {
+  border-color: var(--jtd-border-strong);
+}
+
+.btn-primary {
+  background-color: var(--jtd-btn-primary);
+  border-color: var(--jtd-btn-primary);
+  color: var(--jtd-btn-primary-text);
+}
+
+.btn-primary:hover {
+  background-color: var(--jtd-btn-primary-hover);
+  border-color: var(--jtd-btn-primary-hover);
+  color: var(--jtd-btn-primary-text);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-color: var(--jtd-border);
+  color: var(--jtd-text);
+}
+
+.btn-outline:hover {
+  border-color: var(--jtd-accent);
+  color: var(--jtd-accent);
+  background-color: var(--jtd-accent-soft);
+}
+
+// ---------------------------------------------------------------
+// 10. Content typography
+// ---------------------------------------------------------------
+.main-content {
+  color: var(--jtd-text);
+  font-size: 1rem;
+  line-height: $content-line-height;
 }
 
 .main-content h1,
 .main-content h2,
 .main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: var(--jtd-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  scroll-margin-top: calc(var(--jtd-header-height) + 1rem);
+}
+
+.main-content h1 {
+  font-size: 2.35rem;
+  border-bottom: none;
+}
+
+.main-content h2 {
+  font-size: 1.65rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--jtd-border);
+}
+
+.main-content h3 {
+  font-size: 1.3rem;
+}
+
 .main-content h4 {
-  letter-spacing: -0.3px;
+  font-size: 1.1rem;
+}
+
+.main-content p {
+  margin: 0 0 1.25rem;
+}
+
+.main-content a {
+  color: var(--jtd-link);
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  color: var(--jtd-accent-hover);
+  text-decoration: underline;
+}
+
+.main-content hr {
+  border-top: 1px solid var(--jtd-border);
+}
+
+.main-content li {
+  margin-bottom: 0.4rem;
 }
 
 // ---------------------------------------------------------------
-// Hero section
+// 11. Code
+// ---------------------------------------------------------------
+.main-content code {
+  color: var(--jtd-code-text);
+  background-color: var(--jtd-code-bg);
+  border: 1px solid var(--jtd-border);
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.85em;
+}
+
+div.highlighter-rouge {
+  background-color: var(--jtd-code-bg);
+  border: 1px solid var(--jtd-border);
+  border-radius: var(--jtd-radius-sm);
+  overflow: hidden;
+}
+
+div.highlighter-rouge .highlight {
+  background-color: transparent;
+}
+
+div.highlighter-rouge pre {
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: var(--jtd-code-text);
+}
+
+.btn-copy {
+  background-color: var(--jtd-bg-subtle-2);
+  border: 1px solid var(--jtd-border);
+  color: var(--jtd-text-muted);
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.btn-copy:hover {
+  color: var(--jtd-accent);
+  border-color: var(--jtd-accent);
+}
+
+// ---------------------------------------------------------------
+// 12. Tables
+// ---------------------------------------------------------------
+.main-content table {
+  background-color: var(--jtd-bg);
+  border: 1px solid var(--jtd-border);
+  border-radius: var(--jtd-radius-sm);
+  overflow: hidden;
+}
+
+.main-content thead th {
+  background-color: var(--jtd-table-head-bg);
+  border-bottom: 1px solid var(--jtd-border);
+  color: var(--jtd-heading);
+  font-weight: 600;
+}
+
+.main-content table td,
+.main-content table th {
+  border-color: var(--jtd-border);
+}
+
+.main-content table tr:nth-child(even) {
+  background-color: var(--jtd-table-alt);
+}
+
+.main-content table tr:hover {
+  background-color: var(--jtd-accent-soft);
+}
+
+// ---------------------------------------------------------------
+// 13. Blockquotes
+// ---------------------------------------------------------------
+blockquote {
+  border-left: 4px solid var(--jtd-accent);
+  background-color: var(--jtd-bg-subtle);
+  border-radius: 0 var(--jtd-radius-sm) var(--jtd-radius-sm) 0;
+  padding: 0.75rem 1rem;
+  color: var(--jtd-text-muted);
+}
+
+// ---------------------------------------------------------------
+// 14. Breadcrumbs + prev/next
+// ---------------------------------------------------------------
+.breadcrumb-nav {
+  border-bottom: 1px solid var(--jtd-border);
+}
+
+.breadcrumb-nav-list-item a {
+  color: var(--jtd-text-muted);
+}
+
+.breadcrumb-nav-list-item a:hover {
+  color: var(--jtd-accent);
+  text-decoration: none;
+}
+
+.breadcrumb-nav-list-item + .breadcrumb-nav-list-item::before {
+  color: var(--jtd-text-faint);
+}
+
+.btn-previous,
+.btn-next {
+  border-color: var(--jtd-border);
+  background-color: transparent;
+  color: var(--jtd-text-muted);
+}
+
+.btn-previous:hover,
+.btn-next:hover {
+  border-color: var(--jtd-accent);
+  color: var(--jtd-accent);
+  background-color: var(--jtd-accent-soft);
+  text-decoration: none;
+}
+
+// ---------------------------------------------------------------
+// 15. Hero (homepage)
 // ---------------------------------------------------------------
 .hero {
-  padding: 2.5rem 0 1.5rem;
-  margin-bottom: 1.75rem;
-  border-bottom: 1px solid $border-color;
-  background: linear-gradient(180deg, $feedback-color 0%, transparent 100%);
-  border-radius: 8px;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 3rem 0 2rem;
+  margin: 0 0 2.5rem;
+  border-bottom: 1px solid var(--jtd-border);
 }
 
 .hero h1 {
-  font-size: 2.2rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  letter-spacing: -0.5px;
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.75rem;
+  max-width: 20ch;
+  border-bottom: none;
 }
 
-.hero .hero-description {
-  font-size: 1.1rem;
-  color: $grey-dk-000;
-  max-width: 52rem;
-  margin-bottom: 1.5rem;
+.hero-description {
+  font-size: 1.15rem;
+  color: var(--jtd-text-muted);
+  max-width: 46rem;
+  margin: 0 0 1.5rem;
+  line-height: 1.6;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 1.25rem 0 0.5rem;
+  gap: 0.75rem;
 }
 
-.hero-actions .btn {
-  padding: 0.55rem 1.25rem;
-  font-size: 0.9rem;
-  border-radius: 6px;
-}
-
-.hero-actions .btn-primary {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-// ---------------------------------------------------------------
-// Quick navigation cards
-// ---------------------------------------------------------------
-.quick-nav {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 0.8rem;
-  margin: 1.25rem 0;
-}
-
-.quick-nav a {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.85rem 1rem;
-  border: 1px solid $border-color;
-  border-radius: 8px;
-  color: $body-text-color;
-  font-weight: 500;
-  background-color: $body-background-color;
-  transition: border-color 0.15s, background-color 0.15s, transform 0.15s, box-shadow 0.15s;
-}
-
-.quick-nav a:hover {
-  border-color: $link-color;
-  background-color: $feedback-color;
-  text-decoration: none;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-.quick-nav .nav-emoji {
-  font-size: 1.25rem;
-  line-height: 1;
-}
-
-// ---------------------------------------------------------------
-// Topic tables (category index)
-// ---------------------------------------------------------------
-table.topic-table {
-  margin: 0.75rem 0 2rem;
-}
-
-table.topic-table td {
-  font-size: 0.95rem;
-}
-
-table.topic-table td:first-child {
-  white-space: nowrap;
-  font-family: $mono-font-family;
-  font-size: 0.85rem;
-  color: $grey-dk-000;
-  width: 12rem;
-}
-
-table.topic-table tr:hover {
-  background-color: $feedback-color;
-}
-
-@media (max-width: 42rem) {
-  table.topic-table td:first-child {
-    white-space: normal;
-    width: auto;
-  }
-}
-
-// ---------------------------------------------------------------
-// Code blocks
-// ---------------------------------------------------------------
-div.highlighter-rouge {
-  border: 1px solid $border-color;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-div.highlighter-rouge pre {
-  overflow-x: auto;
-  padding: 1rem;
-  font-size: 0.85rem;
-}
-
-// ---------------------------------------------------------------
-// Admonitions (callouts)
-// ---------------------------------------------------------------
-blockquote {
-  border-left: 4px solid $link-color;
-  background-color: $feedback-color;
-  padding: 0.75rem 1rem;
-  border-radius: 0 6px 6px 0;
-}
-
-// ---------------------------------------------------------------
-// Back-to-top link
-// ---------------------------------------------------------------
-.back-to-top {
-  display: inline-block;
-  margin-top: 1rem;
-  font-size: 0.8rem;
-}
-
-// ---------------------------------------------------------------
-// Footer polish
-// ---------------------------------------------------------------
-.site-footer {
-  margin-top: 2rem;
-  border-top: 1px solid $border-color;
-  padding-top: 1rem;
-}
-
-.site-footer .footer-links {
+.hero-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  margin-bottom: 0.5rem;
+  gap: 0.35rem 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--jtd-border);
   font-size: 0.85rem;
+  color: var(--jtd-text-muted);
 }
 
-.site-footer .footer-links a {
-  color: $grey-dk-000;
-}
-
-.site-footer .footer-links a:hover {
-  color: $link-color;
-  text-decoration: none;
-}
-
-// ---------------------------------------------------------------
-// Table of contents / definitions
-// ---------------------------------------------------------------
-dt {
+.hero-meta strong {
+  color: var(--jtd-heading);
   font-weight: 600;
 }
 
 // ---------------------------------------------------------------
-// Theme toggle button
+// 16. Quick-nav cards
 // ---------------------------------------------------------------
-#theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.25rem;
+.quick-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.quick-nav a {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 1.1rem 1.15rem;
+  border: 1px solid var(--jtd-border);
+  border-radius: var(--jtd-radius);
+  background-color: var(--jtd-bg-subtle);
+  color: var(--jtd-text);
+  text-decoration: none;
+  transition: transform var(--jtd-transition),
+    box-shadow var(--jtd-transition), border-color var(--jtd-transition);
+}
+
+.quick-nav a:hover {
+  border-color: var(--jtd-accent);
+  box-shadow: var(--jtd-shadow);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.quick-nav .nav-emoji {
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+
+.quick-nav .nav-title {
+  font-weight: 600;
+  color: var(--jtd-heading);
+}
+
+.quick-nav .nav-desc {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--jtd-text-muted);
+}
+
+// ---------------------------------------------------------------
+// 17. Topic index (grouped cards)
+// ---------------------------------------------------------------
+.topic-group {
+  margin-bottom: 2.75rem;
+}
+
+.topic-group-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.topic-count {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--jtd-text-faint);
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.85rem;
+}
+
+.topic-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--jtd-border);
+  border-radius: var(--jtd-radius-sm);
+  background-color: var(--jtd-bg-subtle);
+  color: var(--jtd-text);
+  text-decoration: none;
+  transition: border-color var(--jtd-transition),
+    background-color var(--jtd-transition), box-shadow var(--jtd-transition);
+}
+
+.topic-card:hover {
+  border-color: var(--jtd-accent);
+  background-color: var(--jtd-accent-soft);
+  box-shadow: var(--jtd-shadow);
+  text-decoration: none;
+}
+
+.topic-num {
+  flex-shrink: 0;
+  font-family: $mono-font-family;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  padding: 0.25rem 0.45rem;
   border-radius: 6px;
-  border: 1px solid $border-color;
-  background-color: $body-background-color;
-  color: $body-text-color;
-  cursor: pointer;
-  padding: 0.3rem 0.6rem;
+  color: var(--jtd-accent);
+  background-color: var(--jtd-accent-soft);
 }
 
-#theme-toggle:hover {
-  border-color: $link-color;
+.topic-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--jtd-heading);
 }
 
-.theme-icon {
+.topic-desc {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--jtd-text-muted);
+}
+
+// ---------------------------------------------------------------
+// 18. Footer
+// ---------------------------------------------------------------
+footer.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--jtd-border);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.5rem;
+  font-size: 0.85rem;
+}
+
+.footer-links a {
+  color: var(--jtd-text-muted);
+}
+
+.footer-links a:hover {
+  color: var(--jtd-accent);
+  text-decoration: none;
+}
+
+// ---------------------------------------------------------------
+// 19. Floating back-to-top button
+// ---------------------------------------------------------------
+.back-to-top-btn {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 90;
   display: inline-flex;
   align-items: center;
-  line-height: 1;
+  gap: 0.4rem;
+  padding: 0.6rem 0.95rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--jtd-text);
+  background-color: var(--jtd-bg-subtle);
+  border: 1px solid var(--jtd-border);
+  border-radius: 999px;
+  box-shadow: var(--jtd-shadow);
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity var(--jtd-transition),
+    transform var(--jtd-transition), border-color var(--jtd-transition);
 }
 
-.theme-icon svg {
-  width: 16px;
-  height: 16px;
+.back-to-top-btn.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.back-to-top-btn:hover {
+  border-color: var(--jtd-accent);
+  color: var(--jtd-accent);
+  text-decoration: none;
+}
+
+// ---------------------------------------------------------------
+// 20. Reduced motion + focus
+// ---------------------------------------------------------------
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

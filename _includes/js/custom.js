@@ -47,3 +47,26 @@ jtd.onReady(function () {
     a.setAttribute('href', href.replace(/\.md(?=#|$)/i, '.html'));
   });
 });
+
+// Floating back-to-top button.
+jtd.onReady(function () {
+  var btn = document.createElement('a');
+  btn.href = '#top';
+  btn.className = 'back-to-top-btn';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.textContent = 'Back to top \u2191';
+  document.body.appendChild(btn);
+
+  function onScroll() {
+    var show = window.scrollY > 400;
+    btn.classList.toggle('visible', show);
+  }
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+});
