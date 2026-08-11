@@ -883,9 +883,9 @@ Flow:
 Templates:
 {
     "order_confirmed": {
-        "email": { "subject": "Order {{orderId}} confirmed", "body": "..." },
+        "email": { "subject": "Order {{ "{{" }}orderId}} confirmed", "body": "..." },
         "push": { "title": "Order Confirmed", "body": "..." },
-        "sms": { "body": "Order {{orderId}} confirmed" }
+        "sms": { "body": "Order {{ "{{" }}orderId}} confirmed" }
     }
 }
 ```

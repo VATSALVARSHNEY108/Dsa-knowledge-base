@@ -417,7 +417,7 @@ WITH customer_orders AS (
         SUM(amount) AS total_amount,
         MIN(order_date) AS first_order,
         MAX(order_date) AS last_order
-    FROM {{ ref('stg_orders') }}
+    FROM {{ "{{" }} ref('stg_orders') }}
     GROUP BY customer_id
 ),
 

@@ -72,10 +72,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js ${{ "{{" }} matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ "{{" }} matrix.node-version }}
           
       - run: npm ci
       - run: npm test
@@ -99,10 +99,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: Set up Python ${{ "{{" }} matrix.python-version }}
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: ${{ "{{" }} matrix.python-version }}
           
       - name: Install dependencies
         run: |
@@ -141,8 +141,8 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ "{{" }} secrets.DOCKERHUB_USERNAME }}
+          password: ${{ "{{" }} secrets.DOCKERHUB_TOKEN }}
           
       - name: Build and push
         uses: docker/build-push-action@v4
@@ -175,8 +175,8 @@ jobs:
     steps:
       - name: Deploy
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ "{{" }} secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ "{{" }} secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           aws s3 sync ./dist s3://my-bucket
 ```
@@ -222,7 +222,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ "{{" }} matrix.node-version }}
       - run: npm ci
       - run: npm test
 ```
@@ -262,7 +262,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: ${{ inputs.node-version }}
+          node-version: ${{ "{{" }} inputs.node-version }}
       - run: npm ci
       - run: npm test
 ```
@@ -334,10 +334,10 @@ jobs:
       - name: Slack Notification
         uses: 8398a7/action-slack@v3
         with:
-          status: ${{ job.status }}
+          status: ${{ "{{" }} job.status }}
           fields: repo,message,commit,author
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ "{{" }} secrets.SLACK_WEBHOOK_URL }}
 ```
 
 ## Best Practices

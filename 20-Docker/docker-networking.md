@@ -256,7 +256,7 @@ Internet
 
 ```bash
 # Check container network settings
-docker inspect --format '{{json .NetworkSettings.Networks}}' container | jq
+docker inspect --format '{{ "{{" }}json .NetworkSettings.Networks}}' container | jq
 
 # Test DNS resolution from inside container
 docker exec -it container nslookup other-container

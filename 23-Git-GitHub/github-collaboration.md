@@ -252,8 +252,8 @@ jobs:
           echo "Deploying to production..."
           # Your deployment script here
         env:
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          API_TOKEN: ${{ secrets.API_TOKEN }}
+          DEPLOY_KEY: ${{ "{{" }} secrets.DEPLOY_KEY }}
+          API_TOKEN: ${{ "{{" }} secrets.API_TOKEN }}
 ```
 
 ### Common Actions
@@ -269,7 +269,7 @@ strategy:
 - uses: actions/cache@v4
   with:
     path: ~/.npm
-    key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+    key: ${{ "{{" }} runner.os }}-node-${{ "{{" }} hashFiles('**/package-lock.json') }}
 
 # Artifacts
 - uses: actions/upload-artifact@v4
@@ -279,7 +279,7 @@ strategy:
 
 # Environment secrets
 env:
-  DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+  DB_PASSWORD: ${{ "{{" }} secrets.DB_PASSWORD }}
 ```
 
 ---

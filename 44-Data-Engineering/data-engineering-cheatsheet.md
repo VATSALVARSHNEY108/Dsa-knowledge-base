@@ -81,7 +81,7 @@ modeling, and data quality best practices.
 ```sql
 -- models/clean_orders.sql
 WITH orders AS (
-    SELECT * FROM {{ ref('raw_orders') }}
+    SELECT * FROM {{ "{{" }} ref('raw_orders') }}
 )
 SELECT
     order_id,

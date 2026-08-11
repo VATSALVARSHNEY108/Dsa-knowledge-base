@@ -412,7 +412,7 @@ config:
       name: "Peak load"
   defaults:
     headers:
-      Authorization: "Bearer {{ $processEnvironment.API_TOKEN }}"
+      Authorization: "Bearer {{ "{{" }} $processEnvironment.API_TOKEN }}"
 
 scenarios:
   - name: "Browse products"

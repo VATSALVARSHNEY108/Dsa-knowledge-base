@@ -387,12 +387,12 @@ function VirtualizedList({ items }) {
     });
 
     return (
-        <div ref={parentRef} style={{ height: '500px', overflow: 'auto' }}>
-            <div style={{ height: virtualizer.getTotalSize() }}>
+        <div ref={parentRef} style={{ "{{" }} height: '500px', overflow: 'auto' }}>
+            <div style={{ "{{" }} height: virtualizer.getTotalSize() }}>
                 {virtualizer.getVirtualItems().map((virtualRow) => (
                     <div
                         key={virtualRow.key}
-                        style={{
+                        style={{ "{{" }}
                             position: 'absolute',
                             top: virtualRow.start,
                             height: virtualRow.size,
@@ -500,7 +500,7 @@ function processData(data) {
 function App() {
     return (
         <ChildComponent
-            style={{ color: 'red' }}
+            style={{ "{{" }} color: 'red' }}
             onClick={() => console.log('clicked')}
         />
     );

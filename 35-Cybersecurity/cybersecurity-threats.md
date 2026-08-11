@@ -419,7 +419,7 @@ def generate_csrf_token():
     return secrets.token_hex(32)
 
 # Include in forms
-# <input type="hidden" name="csrf_token" value="{{ token }}">
+# <input type="hidden" name="csrf_token" value="{{ "{{" }} token }}">
 ```
 
 ### 4. Remote Code Execution

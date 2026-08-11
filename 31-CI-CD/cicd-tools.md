@@ -343,7 +343,7 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - v1-dependencies-{{ "{{" }} checksum "package-lock.json" }}
             - v1-dependencies-
       - run:
           name: Install dependencies
@@ -351,7 +351,7 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package-lock.json" }}
+          key: v1-dependencies-{{ "{{" }} checksum "package-lock.json" }}
       - run:
           name: Run tests
           command: npm test

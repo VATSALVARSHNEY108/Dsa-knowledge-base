@@ -115,7 +115,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: ${{ "{{" }} env.NODE_VERSION }}
           cache: 'npm'
           cache-dependency-path: backend/package-lock.json
       - run: npm ci
@@ -134,7 +134,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: ${{ "{{" }} env.NODE_VERSION }}
           cache: 'npm'
           cache-dependency-path: frontend/package-lock.json
       - run: npm ci
@@ -186,12 +186,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: ${{ inputs.environment }}
+    environment: ${{ "{{" }} inputs.environment }}
     steps:
       - uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: ${{ "{{" }} secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ "{{" }} secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - run: aws ecs update-service --cluster my-cluster --service my-service --force-new-deployment
 ```
@@ -627,7 +627,7 @@ stages:
 # GitHub Actions - Test across multiple environments
 jobs:
   test:
-    runs-on: ${{ matrix.os }}
+    runs-on: ${{ "{{" }} matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
@@ -645,7 +645,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ "{{" }} matrix.node-version }}
       - run: npm ci
       - run: npm test
 ```
@@ -714,8 +714,8 @@ jobs:
   changes:
     runs-on: ubuntu-latest
     outputs:
-      backend: ${{ steps.filter.outputs.backend }}
-      frontend: ${{ steps.filter.outputs.frontend }}
+      backend: ${{ "{{" }} steps.filter.outputs.backend }}
+      frontend: ${{ "{{" }} steps.filter.outputs.frontend }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v2
@@ -794,16 +794,16 @@ jobs:
         id: npm-cache
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ "{{" }} runner.os }}-node-${{ "{{" }} hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ "{{" }} runner.os }}-node-
 
       # Cache Docker layers
       - uses: docker/build-push-action@v4
         with:
           context: .
           push: false
-          tags: myapp:${{ github.sha }}
+          tags: myapp:${{ "{{" }} github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
@@ -813,9 +813,9 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          key: ${{ "{{" }} runner.os }}-gradle-${{ "{{" }} hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
-            ${{ runner.os }}-gradle-
+            ${{ "{{" }} runner.os }}-gradle-
 ```
 
 ### Parallel Execution
@@ -859,7 +859,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
-      build_time: ${{ steps.timer.outputs.time }}
+      build_time: ${{ "{{" }} steps.timer.outputs.time }}
     steps:
       - name: Start timer
         id: timer-start
@@ -874,7 +874,7 @@ jobs:
       - name: Calculate duration
         id: timer
         run: |
-          duration=$((${{ steps.timer-end.outputs.end }} - ${{ steps.timer-start.outputs.start }}))
+          duration=$((${{ "{{" }} steps.timer-end.outputs.end }} - ${{ "{{" }} steps.timer-start.outputs.start }}))
           echo "time=$duration" >> $GITHUB_OUTPUT
           echo "Build took ${duration}s"
 
@@ -886,7 +886,7 @@ jobs:
         run: |
           curl -X POST "https://api.datadoghq.com/api/v2/series" \
             -H "Content-Type: application/json" \
-            -d "{\"series\":[{\"metric\":\"ci.build_duration\",\"points\":[[$(date +%s),${{ needs.build.outputs.build_time }}]],\"type\":\"gauge\"}]}"
+            -d "{\"series\":[{\"metric\":\"ci.build_duration\",\"points\":[[$(date +%s),${{ "{{" }} needs.build.outputs.build_time }}]],\"type\":\"gauge\"}]}"
 ```
 
 ---
@@ -906,13 +906,13 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     outputs:
-      image_tag: ${{ steps.meta.outputs.tag }}
+      image_tag: ${{ "{{" }} steps.meta.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
       - name: Build and push
         run: |
-          docker build -t myapp:${{ github.sha }} .
-          docker push myapp:${{ github.sha }}
+          docker build -t myapp:${{ "{{" }} github.sha }} .
+          docker push myapp:${{ "{{" }} github.sha }}
 
   deploy-dev:
     needs: build-and-test

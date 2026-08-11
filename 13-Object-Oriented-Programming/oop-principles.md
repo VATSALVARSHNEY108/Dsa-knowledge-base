@@ -436,7 +436,7 @@ class CSVExporter:
 
 class JSONExporter:
     def export(self, data: str) -> bytes:
-        return f'{{"data": "{data}}"}}'.encode()
+        return f'{{ "{{" }}"data": "{data}}"}}'.encode()
 
 # No common base class needed - just the same method name
 def generate_report(exporter, data: str):

@@ -94,7 +94,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: ${{ "{{" }} env.NODE_VERSION }}
           cache: 'npm'
 
       - name: Install dependencies
@@ -438,9 +438,9 @@ rust:
 caching:
   npm:
     path: ~/.npm
-    key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+    key: ${{ "{{" }} runner.os }}-npm-${{ "{{" }} hashFiles('**/package-lock.json') }}
     restore-keys: |
-      ${{ runner.os }}-npm-
+      ${{ "{{" }} runner.os }}-npm-
 
   docker:
     type: registry
@@ -451,7 +451,7 @@ caching:
     paths: |
       node_modules/
       .next/cache/
-    key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
+    key: ${{ "{{" }} runner.os }}-${{ "{{" }} hashFiles('**/lockfiles') }}
 ```
 
 ---
@@ -649,13 +649,13 @@ Code → SAST → Build → DAST → Deploy → Monitor
 steps:
   - name: Deploy
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: ${{ "{{" }} secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ "{{" }} secrets.AWS_SECRET_ACCESS_KEY }}
     run: |
       aws s3 sync dist/ s3://my-bucket/
 
 # Never do this!
-# - run: echo "password=${{ secrets.DB_PASSWORD }}" >> .env
+# - run: echo "password=${{ "{{" }} secrets.DB_PASSWORD }}" >> .env
 ```
 
 ### Security Scanning Configuration
@@ -679,12 +679,12 @@ jobs:
       - name: Run Gitleaks
         uses: gitleaks/gitleaks-action@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ "{{" }} secrets.GITHUB_TOKEN }}
 
       - name: Run Snyk
         uses: snyk/actions/node@master
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_TOKEN: ${{ "{{" }} secrets.SNYK_TOKEN }}
 
       - name: Run Trivy
         uses: aquasecurity/trivy-action@master

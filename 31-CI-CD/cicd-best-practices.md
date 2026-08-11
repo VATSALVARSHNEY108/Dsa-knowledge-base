@@ -102,9 +102,9 @@ stages:
 - uses: actions/cache@v3
   with:
     path: ~/.npm
-    key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+    key: ${{ "{{" }} runner.os }}-npm-${{ "{{" }} hashFiles('**/package-lock.json') }}
     restore-keys: |
-      ${{ runner.os }}-npm-
+      ${{ "{{" }} runner.os }}-npm-
 
 # Cache Docker layers
 - uses: docker/build-push-action@v4
@@ -463,8 +463,8 @@ deploy_checklist:
 steps:
   - name: Deploy
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: ${{ "{{" }} secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ "{{" }} secrets.AWS_SECRET_ACCESS_KEY }}
     run: aws s3 sync dist/ s3://my-bucket/
 
 # Bad: Never do this
@@ -504,7 +504,7 @@ dependency_scan:
 # Require signed commits
 - name: Verify commit signature
   run: |
-    git verify-commit ${{ github.sha }}
+    git verify-commit ${{ "{{" }} github.sha }}
     if [ $? -ne 0 ]; then
       echo "Commit signature verification failed"
       exit 1
@@ -576,7 +576,7 @@ deploy-production:
 # Good: Same pipeline, different config
 deploy:
   strategy: canary
-  environment: ${{ matrix.env }}
+  environment: ${{ "{{" }} matrix.env }}
 ```
 
 ### 2. Manual Steps in Automated Pipeline
@@ -648,8 +648,8 @@ steps:
 
 # Good: Dynamic values
 steps:
-  - run: docker build -t myapp:${{ github.sha }} .
-  - run: kubectl set image deployment/myapp myapp=myapp:${{ github.sha }}
+  - run: docker build -t myapp:${{ "{{" }} github.sha }} .
+  - run: kubectl set image deployment/myapp myapp=myapp:${{ "{{" }} github.sha }}
 ```
 
 ---

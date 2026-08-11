@@ -163,8 +163,8 @@ Vue.js is a progressive JavaScript framework for building user interfaces.
 <template>
     <div class="user-card">
         <img :src="user.avatar" :alt="user.name" />
-        <h3>{{ user.name }}</h3>
-        <p>{{ user.email }}</p>
+        <h3>{{ "{{" }} user.name }}</h3>
+        <p>{{ "{{" }} user.email }}</p>
         <button @click="handleClick">Select</button>
     </div>
 </template>
@@ -282,8 +282,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     template: `
         <div class="user-card" (click)="handleClick()">
             <img [src]="user.avatar" [alt]="user.name" />
-            <h3>{{ user.name }}</h3>
-            <p>{{ user.email }}</p>
+            <h3>{{ "{{" }} user.name }}</h3>
+            <p>{{ "{{" }} user.email }}</p>
         </div>
     `
 })

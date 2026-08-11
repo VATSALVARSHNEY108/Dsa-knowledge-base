@@ -756,7 +756,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: ${{ "{{" }} github.repository }}
 
 jobs:
   build-and-test:
@@ -783,16 +783,16 @@ jobs:
       if: github.ref == 'refs/heads/main'
       uses: docker/login-action@v2
       with:
-        registry: ${{ env.REGISTRY }}
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        registry: ${{ "{{" }} env.REGISTRY }}
+        username: ${{ "{{" }} github.actor }}
+        password: ${{ "{{" }} secrets.GITHUB_TOKEN }}
     
     - name: Build and push Docker image
       if: github.ref == 'refs/heads/main'
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+        tags: ${{ "{{" }} env.REGISTRY }}/${{ "{{" }} env.IMAGE_NAME }}:${{ "{{" }} github.sha }}
 ```
 
 ### Q50: Write a basic Ansible playbook
@@ -825,7 +825,7 @@ jobs:
         
     - name: Create app directory
       file:
-        path: "{{ app_dir }}"
+        path: "{{ "{{" }} app_dir }}"
         state: directory
         owner: www-data
         group: www-data

@@ -230,7 +230,7 @@ function App() {
   const [theme, setTheme] = useState('light');
   
   return (
-    <AppContext.Provider value={{ theme, setTheme }}>
+    <AppContext.Provider value={{ "{{" }} theme, setTheme }}>
       <Child />
     </AppContext.Provider>
   );

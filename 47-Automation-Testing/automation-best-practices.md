@@ -691,7 +691,7 @@ strategy:
 
 steps:
   - name: Run tests
-    run: npx playwright test --shard=${{ matrix.shard }}/4
+    run: npx playwright test --shard=${{ "{{" }} matrix.shard }}/4
 ```
 
 ### Optimize Test Setup

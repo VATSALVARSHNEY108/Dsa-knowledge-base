@@ -670,7 +670,7 @@ int numIslands(vector<vector<char>>& grid) {
     int rows = grid.size();
     int cols = grid[0].size();
     int islands = 0;
-    vector<pair<int, int>> directions = {{0,1}, {0,-1}, {1,0}, {-1,0}};
+    vector<pair<int, int>> directions = {{ "{{" }}0,1}, {0,-1}, {1,0}, {-1,0}};
     
     for (int r = 0; r < rows; r++) {
         for (int c = 0; c < cols; c++) {
@@ -882,7 +882,7 @@ vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
     // Helper function for DFS
     function<void(int, int, vector<vector<bool>>&)> dfs = [&](int r, int c, vector<vector<bool>>& reachable) {
         reachable[r][c] = true;
-        vector<pair<int, int>> directions = {{0,1}, {0,-1}, {1,0}, {-1,0}};
+        vector<pair<int, int>> directions = {{ "{{" }}0,1}, {0,-1}, {1,0}, {-1,0}};
         
         for (auto [dr, dc] : directions) {
             int new_r = r + dr;
@@ -1905,7 +1905,7 @@ vector<int> numIslands2(int m, int n, vector<vector<int>>& positions) {
     DSU dsu(m * n);
     vector<int> result;
     vector<vector<bool>> grid(m, vector<bool>(n, false));
-    vector<pair<int, int>> directions = {{0,1}, {0,-1}, {1,0}, {-1,0}};
+    vector<pair<int, int>> directions = {{ "{{" }}0,1}, {0,-1}, {1,0}, {-1,0}};
     
     for (auto& pos : positions) {
         int r = pos[0];
@@ -1948,7 +1948,7 @@ bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destina
     int rows = maze.size();
     int cols = maze[0].size();
     vector<vector<bool>> visited(rows, vector<bool>(cols, false));
-    vector<pair<int, int>> directions = {{0,1}, {0,-1}, {1,0}, {-1,0}};
+    vector<pair<int, int>> directions = {{ "{{" }}0,1}, {0,-1}, {1,0}, {-1,0}};
     
     queue<vector<int>> q;
     q.push(start);
@@ -2657,7 +2657,7 @@ private:
     TrieNode* root;
     vector<string> result;
     vector<vector<bool>> visited;
-    vector<pair<int, int>> directions = {{0,1}, {0,-1}, {1,0}, {-1,0}};
+    vector<pair<int, int>> directions = {{ "{{" }}0,1}, {0,-1}, {1,0}, {-1,0}};
     
     void dfs(vector<vector<char>>& board, int i, int j, TrieNode* node, string& currentWord) {
         char c = board[i][j];

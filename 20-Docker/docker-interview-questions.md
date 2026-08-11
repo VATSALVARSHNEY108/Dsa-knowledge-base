@@ -239,7 +239,7 @@ secrets:
 docker logs container_name
 
 # Check exit code
-docker inspect container_name --format='{{.State.ExitCode}}'
+docker inspect container_name --format='{{ "{{" }}.State.ExitCode}}'
 
 # Run with shell override
 docker run -it --entrypoint sh myimage
@@ -248,7 +248,7 @@ docker run -it --entrypoint sh myimage
 docker stats container_name
 
 # Inspect environment
-docker inspect container_name --format='{{json .Config.Env}}'
+docker inspect container_name --format='{{ "{{" }}json .Config.Env}}'
 ```
 
 ---
@@ -307,7 +307,7 @@ services:
 
 ```bash
 # Check health status
-docker inspect --format='{{json .State.Health}}' container
+docker inspect --format='{{ "{{" }}json .State.Health}}' container
 ```
 
 ---

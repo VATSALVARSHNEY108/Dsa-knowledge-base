@@ -473,7 +473,7 @@ void dfs(int row, int col, vector<vector<int>>& heights, vector<vector<bool>>& o
     ocean[row][col] = true;
     
     // Explore neighbors with height >= current (water can flow from neighbor to current)
-    vector<pair<int, int>> directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    vector<pair<int, int>> directions = {{ "{{" }}-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     for (auto [dr, dc] : directions) {
         int newRow = row + dr;
         int newCol = col + dc;
@@ -981,7 +981,7 @@ int swimInWater(vector<vector<int>>& grid) {
     if (n == 0) return 0;
     
     // Directions: up, right, down, left
-    vector<pair<int, int>> directions = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+    vector<pair<int, int>> directions = {{ "{{" }}-1, 0}, {0, 1}, {1, 0}, {0, -1}};
     
     // Min-heap: {time, row, col}
     priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<tuple<int, int, int>>> pq;
@@ -1032,7 +1032,7 @@ int maximumMinimumPath(vector<vector<int>>& A) {
     vector<vector<bool>> visited(rows, vector<bool>(bool, false));
     
     // Directions: up, right, down, left
-    vector<pair<int, int>> dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+    vector<pair<int, int>> dirs = {{ "{{" }}-1, 0}, {0, 1}, {1, 0}, {0, -1}};
     
     // Start from top-left
     pq.push({A[0][0], 0, 0});
@@ -1106,7 +1106,7 @@ int maximumMinimumPath(vector<vector<int>>& A) {
     };
     
     // Directions: up, right, down, left
-    vector<pair<int, int>> dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+    vector<pair<int, int>> dirs = {{ "{{" }}-1, 0}, {0, 1}, {1, 0}, {0, -1}};
     
     // Process cells from highest to lowest value
     for (auto [value, row, col] : cells) {
