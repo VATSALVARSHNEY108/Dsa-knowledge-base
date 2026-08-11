@@ -7,7 +7,7 @@ description: A comprehensive CS & Software Engineering Knowledge Base covering 5
 ---
 
 <div class="hero">
-  <h1>CS &amp; Software Engineering Knowledge Base</h1>
+  <h1>Complete Computer Science &amp; Software Engineering Knowledge Base</h1>
   <p class="hero-description">
     55 topics covering programming, algorithms, system design, and career preparation.
     A structured, community-driven resource to take you from fundamentals to interview-ready.

@@ -3,9 +3,15 @@ jtd.onReady(function () {
   var toggle = document.getElementById('theme-toggle');
   if (!toggle) return;
 
+  function systemPref() {
+    try {
+      return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    } catch (e) { return 'dark'; }
+  }
+
   function currentTheme() {
-    try { return window.localStorage.getItem('jtd-theme') || 'dark'; }
-    catch (e) { return 'dark'; }
+    try { return window.localStorage.getItem('jtd-theme') || systemPref(); }
+    catch (e) { return systemPref(); }
   }
 
   function applyTheme(theme, persist) {
